@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    --background: 0 0% 0%;
+    --foreground: 0 0% 98%;
+
+    --card: 202 27% 12%;
+    --card-foreground: 0 0% 98%;
+
+    --popover: 202 27% 12%;
+    --popover-foreground: 0 0% 98%;
+
+    --primary: 202 36% 60%;
+    --primary-foreground: 0 0% 3%;
+
+    --secondary: 202 31% 42%;
+    --secondary-foreground: 0 0% 98%;
+
+    --muted: 202 27% 26%;
+    --muted-foreground: 202 10% 65%;
+
+    --accent: 202 36% 60%;
+    --accent-foreground: 0 0% 3%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 202 27% 20%;
+    --input: 202 27% 20%;
+    --ring: 202 36% 60%;
+
+    --radius: 0.75rem;
+
+    /* Premium gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(202, 27%, 26%), hsl(202, 31%, 42%));
+    --gradient-hero: linear-gradient(180deg, hsl(0, 0%, 3%) 0%, hsl(202, 27%, 12%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(202, 27%, 15%), hsl(202, 31%, 20%));
+    --gradient-accent: linear-gradient(90deg, hsl(202, 36%, 60%), hsl(202, 31%, 42%));
+    
+    /* Shadows */
+    --shadow-premium: 0 20px 60px -15px hsl(202, 36%, 20%);
+    --shadow-glow: 0 0 40px hsl(202, 36%, 40%);
+    --shadow-card: 0 10px 30px -10px hsl(0, 0%, 0%);
+
+    /* Animations */
+    --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+@layer components {
+  .gradient-button {
+    background: linear-gradient(90deg, hsl(202, 36%, 60%), hsl(202, 31%, 42%));
+    transition: all 0.3s ease;
+  }
+
+  .gradient-button:hover {
+    transform: translateY(-4px);
+  }
+
+  .gradient-button-variant {
+    background: linear-gradient(135deg, hsl(202, 27%, 26%), hsl(202, 31%, 42%));
+  }
+
+  .gradient-button-variant:hover {
+    transform: translateY(-2px);
+  }
+}
