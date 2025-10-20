@@ -89,8 +89,8 @@ export default {
           "100%": { opacity: "1", transform: "translateX(0)" },
         },
         "glow": {
-          "0%, 100%": { boxShadow: "0 0 20px hsl(202, 36%, 60%)" },
-          "50%": { boxShadow: "0 0 40px hsl(202, 36%, 70%)" },
+          "0%, 100%": { boxShadow: "0 0 20px hsl(238, 84%, 67%)" },
+          "50%": { boxShadow: "0 0 40px hsl(237, 93%, 82%)" },
         },
         "gradient-shift": {
           "0%, 100%": { backgroundPosition: "0% 50%" },

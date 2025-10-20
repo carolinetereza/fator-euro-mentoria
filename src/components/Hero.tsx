@@ -1,4 +1,4 @@
-import { GradientButton } from "@/components/ui/gradient-button";
+import { ShinyButton } from "@/components/ui/shiny-button";
 import mentorImage from "@/assets/mentor-caroline-new.png";
 import mentee1 from "@/assets/mentee-1.png";
 import mentee2 from "@/assets/mentee-2.png";
@@ -44,12 +44,12 @@ export const Hero = () => {
           </div>
 
           <div>
-            <GradientButton 
+            <ShinyButton 
               onClick={scrollToForm}
               className="group"
             >
               APLICAR AGORA
-            </GradientButton>
+            </ShinyButton>
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">

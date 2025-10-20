@@ -1,4 +1,4 @@
-import { GradientButton } from "@/components/ui/gradient-button";
+import { ShinyButton } from "@/components/ui/shiny-button";
 import { ArrowDown } from "lucide-react";
 import { useState, useEffect } from "react";
 
@@ -35,13 +35,13 @@ export const FixedCTA = () => {
         isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10 pointer-events-none"
       }`}
     >
-      <GradientButton
+      <ShinyButton
         onClick={scrollToForm}
         className="group"
       >
         APLICAR AGORA
-        <ArrowDown className="group-hover:translate-y-1 transition-transform" />
-      </GradientButton>
+        <ArrowDown className="ml-2 group-hover:translate-y-1 transition-transform" />
+      </ShinyButton>
     </div>
   );
 };

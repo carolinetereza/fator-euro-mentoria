@@ -1,4 +1,4 @@
-import { GradientButton } from "@/components/ui/gradient-button";
+import { ShinyButton } from "@/components/ui/shiny-button";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -198,13 +198,13 @@ export const ApplicationForm = () => {
                 </div>
               </div>
 
-              <GradientButton
+              <ShinyButton
                 type="submit"
                 className="w-full group"
               >
                 ENVIAR APLICAÇÃO
-                <Send className="group-hover:translate-x-1 transition-transform" />
-              </GradientButton>
+                <Send className="ml-2 group-hover:translate-x-1 transition-transform" />
+              </ShinyButton>
 
               <p className="text-sm text-center text-muted-foreground">
                 Ao enviar, você será redirecionado(a) para o WhatsApp para finalizar sua aplicação.

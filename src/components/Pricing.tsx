@@ -1,4 +1,4 @@
-import { GradientButton } from "@/components/ui/gradient-button";
+import { ShinyButton } from "@/components/ui/shiny-button";
 import { GlowingEffect } from "@/components/ui/glowing-effect";
 import { Check, Shield, Zap } from "lucide-react";
 
@@ -146,12 +146,12 @@ export const Pricing = () => {
 
                 {/* CTA - Modern gradient button */}
                 <div className="relative">
-                  <GradientButton 
-                    className="relative w-full text-sm md:text-base lg:text-xl font-bold py-6 md:py-7 lg:py-9 rounded-xl md:rounded-2xl shadow-[0_0_40px_rgba(114,166,191,0.3)] hover:shadow-[0_8px_60px_rgba(114,166,191,0.6)] transition-all duration-500"
+                  <ShinyButton 
+                    className="relative w-full text-sm md:text-base lg:text-xl font-bold py-6 md:py-7 lg:py-9 rounded-xl md:rounded-2xl shadow-[0_0_40px_rgba(99,102,241,0.3)] hover:shadow-[0_8px_60px_rgba(99,102,241,0.6)] transition-all duration-500"
                     onClick={scrollToForm}
                   >
-                    <span className="relative z-10">GARANTIR MINHA VAGA AGORA</span>
-                  </GradientButton>
+                    GARANTIR MINHA VAGA AGORA
+                  </ShinyButton>
                 </div>
 
                 {/* Limited slots */}

@@ -11,42 +11,42 @@ All colors MUST be HSL.
     --background: 0 0% 0%;
     --foreground: 0 0% 98%;
 
-    --card: 202 27% 12%;
+    --card: 238 20% 12%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 202 27% 12%;
+    --popover: 238 20% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 202 36% 60%;
-    --primary-foreground: 0 0% 3%;
+    --primary: 238 84% 67%;
+    --primary-foreground: 0 0% 100%;
 
-    --secondary: 202 31% 42%;
+    --secondary: 217 81% 54%;
     --secondary-foreground: 0 0% 98%;
 
-    --muted: 202 27% 26%;
-    --muted-foreground: 202 10% 65%;
+    --muted: 238 20% 26%;
+    --muted-foreground: 238 10% 65%;
 
-    --accent: 202 36% 60%;
+    --accent: 186 93% 82%;
     --accent-foreground: 0 0% 3%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 202 27% 20%;
-    --input: 202 27% 20%;
-    --ring: 202 36% 60%;
+    --border: 238 20% 20%;
+    --input: 238 20% 20%;
+    --ring: 238 84% 67%;
 
     --radius: 0.75rem;
 
-    /* Premium gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(202, 27%, 26%), hsl(202, 31%, 42%));
-    --gradient-hero: linear-gradient(180deg, hsl(0, 0%, 3%) 0%, hsl(202, 27%, 12%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(202, 27%, 15%), hsl(202, 31%, 20%));
-    --gradient-accent: linear-gradient(90deg, hsl(202, 36%, 60%), hsl(202, 31%, 42%));
+    /* Premium gradients - using new indigo/blue/cyan colors */
+    --gradient-primary: linear-gradient(135deg, hsl(238, 84%, 67%), hsl(217, 81%, 54%));
+    --gradient-hero: linear-gradient(180deg, hsl(0, 0%, 3%) 0%, hsl(238, 20%, 12%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(238, 20%, 15%), hsl(217, 40%, 20%));
+    --gradient-accent: linear-gradient(90deg, hsl(238, 84%, 67%), hsl(186, 93%, 82%));
     
-    /* Shadows */
-    --shadow-premium: 0 20px 60px -15px hsl(202, 36%, 20%);
-    --shadow-glow: 0 0 40px hsl(202, 36%, 40%);
+    /* Shadows - updated with new primary color */
+    --shadow-premium: 0 20px 60px -15px hsl(238, 84%, 30%);
+    --shadow-glow: 0 0 40px hsl(238, 84%, 50%);
     --shadow-card: 0 10px 30px -10px hsl(0, 0%, 0%);
 
     /* Animations */
@@ -67,7 +67,7 @@ All colors MUST be HSL.
 
 @layer components {
   .gradient-button {
-    background: linear-gradient(90deg, hsl(202, 36%, 60%), hsl(202, 31%, 42%));
+    background: linear-gradient(90deg, hsl(238, 84%, 67%), hsl(217, 81%, 54%));
     transition: all 0.3s ease;
   }
 
@@ -76,7 +76,7 @@ All colors MUST be HSL.
   }
 
   .gradient-button-variant {
-    background: linear-gradient(135deg, hsl(202, 27%, 26%), hsl(202, 31%, 42%));
+    background: linear-gradient(135deg, hsl(238, 84%, 67%), hsl(186, 93%, 82%));
   }
 
   .gradient-button-variant:hover {
