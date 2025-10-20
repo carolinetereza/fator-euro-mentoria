@@ -32,7 +32,7 @@ export const Method = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Criadora do método <span className="text-primary">V.E.N.D.®</span>
+              Criadora do método <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">V.E.N.D.®</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
               Criei esse método operando lojas reais. Ele não vem de livro.
@@ -72,7 +72,7 @@ export const Method = () => {
             <p className="text-xl md:text-2xl font-semibold max-w-3xl mx-auto leading-relaxed">
               Esse é o passo a passo que transforma loja travada em operação lucrativa.
               <br />
-              <span className="text-primary">E agora é a sua vez de aplicar ele comigo.</span>
+              <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">E agora é a sua vez de aplicar ele comigo.</span>
             </p>
           </div>
         </div>

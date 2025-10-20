@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { ShinyButton } from "@/components/ui/shiny-button";
 import { Instagram, Linkedin, MessageCircle } from "lucide-react";
 import logoFatorEuro from "@/assets/logo-fator-euro.png";
 
@@ -75,21 +76,17 @@ export const Footer = () => {
             {/* Right side - Contact */}
             <div className="space-y-4 text-center md:text-left">
               <h4 className="text-xl md:text-2xl font-bold">Entre em Contato</h4>
-              <Button
-                variant="gradient-cta"
-                size="lg"
-                className="w-full md:w-auto"
-                asChild
+              <a
+                href="https://wa.me/5521969574147"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block w-full md:w-auto"
               >
-                <a
-                  href="https://wa.me/5521969574147"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+                <ShinyButton className="w-full md:w-auto flex items-center gap-2">
                   <MessageCircle className="w-5 h-5" />
                   FALAR NO WHATSAPP
-                </a>
-              </Button>
+                </ShinyButton>
+              </a>
             </div>
           </div>
 

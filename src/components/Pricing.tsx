@@ -26,7 +26,7 @@ export const Pricing = () => {
           <div className="text-center space-y-6">
             <h2 className="text-4xl md:text-6xl font-bold leading-tight">
               Investimento na Sua{" "}
-              <span className="bg-gradient-to-r from-[#72a6bf] to-[#49778d] bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
                 Transformação
               </span>
             </h2>

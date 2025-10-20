@@ -22,7 +22,7 @@ export const ForWho = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Essa Mentoria É <span className="text-primary">Para Você Se...</span>
+              Essa Mentoria É <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">Para Você Se...</span>
             </h2>
           </div>
 

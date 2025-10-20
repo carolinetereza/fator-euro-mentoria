@@ -33,7 +33,7 @@ export const Testimonials = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Resultados <span className="text-primary">Reais</span> dos Mentorados
+              Resultados <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">Reais</span> dos Mentorados
             </h2>
             <p className="text-xl text-muted-foreground">
               Veja o que quem aplicou tem a dizer

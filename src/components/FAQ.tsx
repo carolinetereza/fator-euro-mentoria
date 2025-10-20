@@ -48,7 +48,7 @@ export const FAQ = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Perguntas <span className="text-primary">Sem Rodeios</span>
+              Perguntas <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">Sem Rodeios</span>
             </h2>
             <p className="text-xl text-muted-foreground">
               Respostas diretas para dúvidas diretas
