@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ShinyButton } from "@/components/ui/shiny-button";
 import { Instagram, Linkedin, MessageCircle } from "lucide-react";
-import logoFatorEuro from "@/assets/logo-fator-euro.png";
+import logoGoldCrown from "@/assets/logo-gold-crown.png";
 
 export const Footer = () => {
   const socialLinks = [
@@ -33,15 +33,12 @@ export const Footer = () => {
           <div className="grid md:grid-cols-2 gap-8 items-center text-center md:text-left">
             {/* Left side - Branding */}
             <div className="space-y-4">
-              <div className="flex flex-col items-center md:items-start gap-3">
+              <div className="flex flex-col items-center md:items-start">
                 <img 
-                  src={logoFatorEuro} 
+                  src={logoGoldCrown} 
                   alt="Logo Fator Euro" 
-                  className="w-24 md:w-28 h-auto"
+                  className="w-32 md:w-40 h-auto"
                 />
-                <h3 className="text-2xl md:text-3xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-                  FATOR EURO
-                </h3>
               </div>
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Resultado é o Novo Luxo.

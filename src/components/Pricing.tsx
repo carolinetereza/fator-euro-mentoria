@@ -26,7 +26,7 @@ export const Pricing = () => {
           <div className="text-center space-y-6">
             <h2 className="text-4xl md:text-6xl font-bold leading-tight">
               Investimento na Sua{" "}
-              <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
+              <span className="bg-gradient-accent bg-clip-text text-transparent">
                 Transformação
               </span>
             </h2>
@@ -63,7 +63,7 @@ export const Pricing = () => {
               <div className="relative p-6 md:p-12 lg:p-16 space-y-8 md:space-y-10">
                 {/* Title */}
                 <div className="space-y-3 md:space-y-4 pt-12 md:pt-8">
-                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
+                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent">
                     FATOR EURO
                   </h3>
                   <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed">
@@ -159,7 +159,7 @@ export const Pricing = () => {
                   <p className="text-sm md:text-base lg:text-lg text-muted-foreground">
                     Vagas limitadas. Apenas 4 mentorados por mês.
                   </p>
-                  <p className="text-base md:text-lg lg:text-xl font-bold bg-gradient-to-r from-[#72a6bf] to-[#49778d] bg-clip-text text-transparent">
+                  <p className="text-base md:text-lg lg:text-xl font-bold bg-gradient-accent bg-clip-text text-transparent">
                     Não é para curiosos. É para quem quer lucro real.
                   </p>
                 </div>

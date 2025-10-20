@@ -16,7 +16,7 @@ export const Authority = () => {
           {/* Section Title */}
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Conheça <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">Caroline Morette</span>
+              Conheça <span className="bg-gradient-accent bg-clip-text text-transparent">Caroline Morette</span>
             </h2>
           </div>
 
@@ -57,7 +57,7 @@ export const Authority = () => {
               <h3 className="text-3xl md:text-4xl font-bold leading-tight text-center md:text-left">
                 Não sou guru.<br />
                 Nem influencer.<br />
-                <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">Sou operadora.</span>
+                <span className="bg-gradient-accent bg-clip-text text-transparent">Sou operadora.</span>
               </h3>
               
               <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
@@ -76,8 +76,8 @@ export const Authority = () => {
                   precisa fazer dar certo, sem desculpa.
                 </p>
                 
-                <p className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent font-semibold text-xl">
-                  Não aprendi isso em curso. Aprendi operando. 
+                <p className="bg-gradient-accent bg-clip-text text-transparent font-semibold text-xl">
+                  Não aprendi isso em curso. Aprendi operando.
                   E agora, posso te guiar nesse mesmo caminho.
                 </p>
               </div>
@@ -86,7 +86,7 @@ export const Authority = () => {
             {/* What matters section */}
             <div className="space-y-6 pt-8">
               <h3 className="text-2xl md:text-3xl font-bold">
-                Mas o que <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">realmente importa?</span>
+                Mas o que <span className="bg-gradient-accent bg-clip-text text-transparent">realmente importa?</span>
               </h3>
               
               <div className="grid gap-4">

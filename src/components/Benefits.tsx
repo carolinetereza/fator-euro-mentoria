@@ -51,7 +51,7 @@ export const Benefits = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              O Que Você <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">Realmente Recebe</span>
+              O Que Você <span className="bg-gradient-accent bg-clip-text text-transparent">Realmente Recebe</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Sem estoque • Sem enrolação • Sem fórmula mágica
@@ -84,7 +84,7 @@ export const Benefits = () => {
           <div className="relative p-8 md:p-12 bg-background/30 backdrop-blur-sm rounded-2xl text-center space-y-4 overflow-hidden border-2 border-primary/50 hover:shadow-[0_8px_40px_rgba(99,102,241,0.4)] transition-all duration-300 hover:scale-[1.02]">
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.1),transparent_70%)]" />
             <div className="relative z-10">
-              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
+              <h3 className="text-3xl md:text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent">
                 Exclusividade Absoluta
               </h3>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">

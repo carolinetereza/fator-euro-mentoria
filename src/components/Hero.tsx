@@ -12,8 +12,8 @@ export const Hero = () => {
 
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero pt-20">
-      {/* Background mentor image - only load on desktop */}
-      <div className="hidden md:block absolute inset-0 opacity-10">
+      {/* Background mentor image */}
+      <div className="absolute inset-0 opacity-10">
         <img 
           src={mentorImage} 
           alt="Caroline Morette" 
@@ -53,11 +53,11 @@ export const Hero = () => {
           </div>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">
-            <div className="flex -space-x-3">
+            <div className="flex -space-x-2">
               {[mentee1, mentee2, mentee3, mentee4].map((img, i) => (
                 <div
                   key={i}
-                  className="w-12 h-12 rounded-full border-2 border-background overflow-hidden"
+                  className="w-10 h-10 rounded-full border-2 border-background overflow-hidden"
                 >
                   <img 
                     src={img} 

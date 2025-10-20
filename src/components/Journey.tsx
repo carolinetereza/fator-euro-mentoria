@@ -38,7 +38,7 @@ export const Journey = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Etapas da <span className="bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">Mentoria</span>
+              Etapas da <span className="bg-gradient-accent bg-clip-text text-transparent">Mentoria</span>
             </h2>
             <p className="text-xl text-muted-foreground">
               Um processo estruturado do zero ao lucro
