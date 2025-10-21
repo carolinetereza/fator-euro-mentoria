@@ -74,11 +74,6 @@ export const Authority = () => {
                 Estudei Business Management na Irlanda e Estratégia Corporativa em Londres 
                 e hoje vendo todos os dias em euro, dólar e libra.
               </p>
-              
-              <p className="bg-gradient-accent bg-clip-text text-transparent font-semibold text-xl">
-                Essa mentoria não veio de livro. Veio da prática. Veio da pressão de quem 
-                precisa fazer dar certo, sem desculpa. E agora, posso te guiar nesse mesmo caminho.
-              </p>
             </div>
 
             {/* What matters section */}
@@ -100,6 +95,11 @@ export const Authority = () => {
                   </div>
                 ))}
               </div>
+              
+              <p className="bg-gradient-accent bg-clip-text text-transparent font-semibold text-xl pt-6">
+                Essa mentoria não veio de livro. Veio da prática. Veio da pressão de quem 
+                precisa fazer dar certo, sem desculpa. E agora, posso te guiar nesse mesmo caminho.
+              </p>
             </div>
           </div>
         </div>
