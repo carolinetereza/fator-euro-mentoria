@@ -62,7 +62,7 @@ export const ForWho = () => {
                 {notFor.map((item, index) => (
                   <div
                     key={index}
-                    className="p-4 bg-card/30 rounded-xl border border-muted/30 opacity-60"
+                    className="p-4 bg-card/30 rounded-xl border-2 border-destructive/50 opacity-60 hover:opacity-80 transition-opacity"
                   >
                     <p className="text-lg">{item}</p>
                   </div>
