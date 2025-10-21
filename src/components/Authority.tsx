@@ -1,12 +1,12 @@
-import { CheckCircle2 } from "lucide-react";
+import { TrendingUp, Target, Zap, Users } from "lucide-react";
 import mentorImage from "@/assets/mentor-authority.png";
 
 export const Authority = () => {
   const highlights = [
-    "Resultados reais",
-    "Prática diária",
-    "Estratégias que vendem todos os dias",
-    "Mentoria exclusiva e individual"
+    { text: "Resultados reais", icon: TrendingUp },
+    { text: "Prática diária", icon: Target },
+    { text: "Estratégias que vendem todos os dias", icon: Zap },
+    { text: "Mentoria exclusiva e individual", icon: Users }
   ];
 
   return (
@@ -83,22 +83,30 @@ export const Authority = () => {
               </h3>
               
               <div className="grid gap-4">
-                {highlights.map((highlight, index) => (
-                  <div
-                    key={index}
-                    className="group flex items-center gap-3 p-4 bg-card/30 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_40px_rgba(114,166,191,0.3)]"
-                  >
-                    <div className="w-10 h-10 rounded-xl bg-gradient-accent flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-[0_8px_30px_rgba(114,166,191,0.5)] transition-all duration-300 group-hover:scale-110">
-                      <CheckCircle2 className="w-5 h-5 text-background stroke-[1.5]" />
+                {highlights.map((highlight, index) => {
+                  const Icon = highlight.icon;
+                  return (
+                    <div
+                      key={index}
+                      className="group flex items-center gap-3 p-4 bg-card/30 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_40px_rgba(114,166,191,0.3)]"
+                    >
+                      <div className="w-10 h-10 rounded-xl bg-gradient-accent flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-[0_8px_30px_rgba(114,166,191,0.5)] transition-all duration-300 group-hover:scale-110">
+                        <Icon className="w-5 h-5 text-background stroke-[1.5]" />
+                      </div>
+                      <span className="font-semibold">{highlight.text}</span>
                     </div>
-                    <span className="font-semibold">{highlight}</span>
-                  </div>
-                ))}
+                  );
+                })}
               </div>
               
-              <p className="bg-gradient-accent bg-clip-text text-transparent font-semibold text-xl pt-6">
-                Essa mentoria não veio de livro. Veio da prática. Veio da pressão de quem 
-                precisa fazer dar certo, sem desculpa. E agora, posso te guiar nesse mesmo caminho.
+              <p className="font-semibold text-xl pt-6">
+                <span className="bg-gradient-accent bg-clip-text text-transparent">
+                  Essa mentoria não veio de livro. Veio da prática.
+                </span>{" "}
+                Veio da pressão de quem precisa fazer dar certo, sem desculpa.{" "}
+                <span className="bg-gradient-accent bg-clip-text text-transparent">
+                  E agora, posso te guiar nesse mesmo caminho.
+                </span>
               </p>
             </div>
           </div>

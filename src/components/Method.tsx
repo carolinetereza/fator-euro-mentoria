@@ -49,7 +49,7 @@ export const Method = () => {
               >
                 {/* Letter badge */}
                 <div className="absolute -top-6 left-8">
-                  <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center text-2xl font-bold shadow-lg">
+                  <div className="w-12 h-12 rounded-full bg-gradient-accent flex items-center justify-center text-2xl font-bold shadow-lg">
                     {step.letter}
                   </div>
                 </div>
