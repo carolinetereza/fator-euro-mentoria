@@ -200,10 +200,10 @@ export const ApplicationForm = () => {
 
               <ShinyButton
                 type="submit"
-                className="w-full group"
+                className="w-full group flex items-center justify-center gap-2"
               >
                 ENVIAR APLICAÇÃO
-                <Send className="ml-2 group-hover:translate-x-1 transition-transform" />
+                <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </ShinyButton>
 
               <p className="text-sm text-center text-muted-foreground">

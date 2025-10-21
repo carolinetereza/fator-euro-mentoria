@@ -65,7 +65,7 @@ export const Navigation = () => {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="md:hidden pb-4 animate-fade-in">
+          <div className="md:hidden pb-4 animate-fade-in bg-background/95 backdrop-blur-lg border-b border-border rounded-b-lg">
             <div className="flex flex-col gap-2">
               {menuItems.map((item) => (
                 <button

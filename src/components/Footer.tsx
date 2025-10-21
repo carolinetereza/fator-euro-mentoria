@@ -30,16 +30,14 @@ export const Footer = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Main content */}
-          <div className="grid md:grid-cols-2 gap-8 items-center text-center md:text-left">
+          <div className="grid md:grid-cols-3 gap-8 items-start">
             {/* Left side - Branding */}
-            <div className="space-y-4">
-              <div className="flex flex-col items-center md:items-start">
-                <img 
-                  src={logoGoldCrown} 
-                  alt="Logo Fator Euro" 
-                  className="w-32 md:w-40 h-auto"
-                />
-              </div>
+            <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
+              <img 
+                src={logoGoldCrown} 
+                alt="Logo Fator Euro" 
+                className="w-40 md:w-52 h-auto"
+              />
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
                 Resultado é o Novo Luxo.
                 <br />
@@ -70,8 +68,33 @@ export const Footer = () => {
               </div>
             </div>
 
+            {/* Middle - Navigation */}
+            <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
+              <h4 className="text-xl md:text-2xl font-bold">Menu</h4>
+              <nav className="flex flex-col gap-2">
+                <button
+                  onClick={() => document.getElementById('authority')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Quem Sou
+                </button>
+                <button
+                  onClick={() => document.getElementById('method')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Método
+                </button>
+                <button
+                  onClick={() => document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' })}
+                  className="text-muted-foreground hover:text-foreground transition-colors"
+                >
+                  Aplicar
+                </button>
+              </nav>
+            </div>
+
             {/* Right side - Contact */}
-            <div className="space-y-4 text-center md:text-left">
+            <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
               <h4 className="text-xl md:text-2xl font-bold">Entre em Contato</h4>
               <a
                 href="https://wa.me/5521969574147"
@@ -79,7 +102,7 @@ export const Footer = () => {
                 rel="noopener noreferrer"
                 className="inline-block w-full md:w-auto"
               >
-                <ShinyButton className="w-full md:w-auto flex items-center gap-2">
+                <ShinyButton className="w-full md:w-auto flex items-center justify-center gap-2">
                   <MessageCircle className="w-5 h-5" />
                   FALAR NO WHATSAPP
                 </ShinyButton>

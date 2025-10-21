@@ -192,8 +192,8 @@ export function ShinyButton({ children, onClick, className = "", type = "button"
         }
       `}</style>
 
-      <button className={`shiny-cta ${className}`} onClick={onClick} type={type}>
-        <span>{children}</span>
+      <button className={`shiny-cta inline-flex items-center justify-center ${className}`} onClick={onClick} type={type}>
+        <span className="inline-flex items-center justify-center gap-2">{children}</span>
       </button>
     </>
   )

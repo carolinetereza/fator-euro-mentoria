@@ -21,7 +21,7 @@ export const Authority = () => {
           </div>
 
           {/* Photo - Desktop centered below title */}
-          <div className="hidden lg:flex justify-center mb-12">
+          <div className="hidden lg:flex flex-col items-center mb-12 space-y-6">
             <div className="relative w-[400px]">
               <div className="absolute inset-0 bg-gradient-accent blur-3xl opacity-20" />
               <div className="relative rounded-2xl overflow-hidden border border-primary/30 shadow-2xl">
@@ -33,6 +33,9 @@ export const Authority = () => {
                 />
               </div>
             </div>
+            <p className="text-2xl font-semibold text-center">
+              Não sou guru. Nem influencer. <span className="bg-gradient-accent bg-clip-text text-transparent">Sou operadora.</span>
+            </p>
           </div>
 
           {/* Mobile/Tablet Layout - Image on left */}
@@ -52,35 +55,30 @@ export const Authority = () => {
 
           {/* Content */}
           <div className="max-w-4xl mx-auto space-y-8">
-            {/* Main Statement */}
-            <div className="space-y-6">
-              <h3 className="text-3xl md:text-4xl font-bold leading-tight text-center md:text-left">
+            {/* Main Statement - Only for mobile/tablet */}
+            <div className="space-y-6 lg:hidden">
+              <h3 className="text-3xl md:text-4xl font-bold leading-tight text-center">
                 Não sou guru.<br />
                 Nem influencer.<br />
                 <span className="bg-gradient-accent bg-clip-text text-transparent">Sou operadora.</span>
               </h3>
+            </div>
               
-              <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
-                <p>
-                  Enquanto muitos falam, eu opero e-commerces reais em múltiplos países. 
-                  Onde tem internet, tem mercado. E eu sei como escalar.
-                </p>
-                
-                <p>
-                  Estudei Business Management na Irlanda e Estratégia Corporativa em Londres 
-                  e hoje vendo todos os dias em euro, dólar e libra.
-                </p>
-                
-                <p>
-                  Essa mentoria não veio de livro. Veio da prática. Veio da pressão de quem 
-                  precisa fazer dar certo, sem desculpa.
-                </p>
-                
-                <p className="bg-gradient-accent bg-clip-text text-transparent font-semibold text-xl">
-                  Não aprendi isso em curso. Aprendi operando.
-                  E agora, posso te guiar nesse mesmo caminho.
-                </p>
-              </div>
+            <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
+              <p>
+                Enquanto muitos falam, eu opero e-commerces reais em múltiplos países. 
+                Onde tem internet, tem mercado. E eu sei como escalar.
+              </p>
+              
+              <p>
+                Estudei Business Management na Irlanda e Estratégia Corporativa em Londres 
+                e hoje vendo todos os dias em euro, dólar e libra.
+              </p>
+              
+              <p className="bg-gradient-accent bg-clip-text text-transparent font-semibold text-xl">
+                Essa mentoria não veio de livro. Veio da prática. Veio da pressão de quem 
+                precisa fazer dar certo, sem desculpa. E agora, posso te guiar nesse mesmo caminho.
+              </p>
             </div>
 
             {/* What matters section */}

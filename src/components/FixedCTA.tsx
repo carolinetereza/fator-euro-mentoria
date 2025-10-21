@@ -37,10 +37,10 @@ export const FixedCTA = () => {
     >
       <ShinyButton
         onClick={scrollToForm}
-        className="group"
+        className="group flex items-center justify-center gap-2"
       >
         APLICAR AGORA
-        <ArrowDown className="ml-2 group-hover:translate-y-1 transition-transform" />
+        <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
       </ShinyButton>
     </div>
   );

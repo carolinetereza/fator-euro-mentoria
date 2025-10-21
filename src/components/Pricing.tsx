@@ -118,32 +118,6 @@ export const Pricing = () => {
                   </div>
                 </div>
 
-                {/* Guarantee - Enhanced glassmorphism */}
-                <div className="relative group/guarantee p-6 md:p-8 bg-gradient-to-br from-primary/10 via-card/50 to-transparent backdrop-blur-md rounded-xl md:rounded-2xl border border-primary/20 hover:border-primary/40 transition-all duration-500 hover:shadow-[0_20px_60px_rgba(114,166,191,0.3)]">
-                  {/* Animated gradient background */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 rounded-xl md:rounded-2xl opacity-0 group-hover/guarantee:opacity-100 transition-opacity duration-500" />
-                  
-                  <div className="relative flex items-start gap-4 md:gap-6">
-                    {/* Icon with enhanced glow */}
-                    <div className="relative flex-shrink-0">
-                      <div className="absolute inset-0 bg-gradient-to-br from-primary to-accent blur-lg opacity-50 group-hover/guarantee:opacity-80 transition-opacity duration-500 rounded-xl md:rounded-2xl" />
-                      <div className="relative w-12 h-12 md:w-16 md:h-16 rounded-xl md:rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center shadow-xl group-hover/guarantee:shadow-[0_12px_40px_rgba(114,166,191,0.6)] group-hover/guarantee:scale-105 transition-all duration-500">
-                        <Shield className="w-6 h-6 md:w-9 md:h-9 text-primary-foreground" />
-                      </div>
-                    </div>
-                    
-                    <div className="space-y-2 md:space-y-3">
-                      <h4 className="text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
-                        Garantia Absoluta
-                      </h4>
-                      <p className="text-sm md:text-base lg:text-lg text-muted-foreground leading-relaxed">
-                        Se não vender em até 15 dias, refaço tudo com você. Simples assim.
-                        Comprometimento total com seu resultado.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-
                 {/* CTA - Modern gradient button */}
                 <div className="relative">
                   <ShinyButton 
