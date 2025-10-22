@@ -32,14 +32,14 @@ export const Hero = () => {
           {/* Main Content */}
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              Venda em moeda forte.
+              Fature em euro, dólar e libra.
               <br />
               <span className="bg-gradient-accent bg-clip-text text-transparent">
                 Escale para o mundo.
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Mentoria individual com foco em performance, não em promessas.
+              Mentoria individual guiada por resultados reais.
             </p>
           </div>
 
@@ -52,27 +52,6 @@ export const Hero = () => {
             </ShinyButton>
           </div>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 pt-4">
-            <div className="flex -space-x-2">
-              {[mentee1, mentee2, mentee3, mentee4].map((img, i) => (
-                <div
-                  key={i}
-                  className="w-10 h-10 rounded-full border-2 border-background overflow-hidden"
-                >
-                  <img 
-                    src={img} 
-                    alt={`Mentorado ${i + 1}`}
-                    className="w-full h-full object-cover"
-                    loading="lazy"
-                  />
-                </div>
-              ))}
-            </div>
-            <div className="text-sm text-center sm:text-left">
-              <p className="font-semibold text-lg">Apenas 4 vagas/mês</p>
-              <p className="text-muted-foreground">Mentorados ativos atualmente</p>
-            </div>
-          </div>
         </div>
       </div>
 
