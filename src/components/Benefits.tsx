@@ -10,7 +10,7 @@ export const Benefits = () => {
     {
       icon: Target,
       title: "Campanhas Reais e Dados de Vendas",
-      description: "Aqui você vê o que funciona. Não a teoria."
+      description: "Rastreamentos VIP liberados. Aqui você vê o que funciona. Não a teoria."
     },
     {
       icon: FileText,
@@ -33,14 +33,14 @@ export const Benefits = () => {
       description: "Nada de esperar dias pra resposta. Aqui o suporte é direto do meu WhatsApp pessoal."
     },
     {
-      icon: Shield,
-      title: "Compromisso real",
-      description: "Se não vender, eu refaço tudo contigo."
-    },
-    {
       icon: Award,
       title: "Modelo de Loja Campeã",
       description: "Receba estrutura validada para conversão máxima."
+    },
+    {
+      icon: Shield,
+      title: "Compromisso real",
+      description: "Se não vender, eu refaço tudo contigo."
     }
   ];
 
