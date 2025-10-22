@@ -35,11 +35,11 @@ export const Hero = () => {
               Fature em euro, dólar e libra.
               <br />
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                Direto do seu notebook.
+                Escale para o mundo.
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Eu te ensino a transformar tua loja travada em operação que imprime lucro fora do Brasil.
+              Transforme tua loja em operação que imprime lucro global.
             </p>
           </div>
 
@@ -55,7 +55,9 @@ export const Hero = () => {
           <div className="pt-4 space-y-2">
             <p className="font-semibold text-lg">Apenas 4 vagas/mês</p>
             <p className="text-base md:text-lg text-muted-foreground">
-              Quem entra, fatura. Quem demora, assiste os outros lucrando.
+              Quem entra, fatura.
+              <br />
+              Quem demora, assiste os outros lucrando.
             </p>
           </div>
 
