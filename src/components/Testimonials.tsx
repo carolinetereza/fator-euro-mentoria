@@ -55,13 +55,6 @@ export const Testimonials = () => {
           <div className="flex justify-center min-h-[400px] py-10">
             <DisplayCards cards={testimonialCards} />
           </div>
-
-          {/* Note */}
-          <div className="text-center">
-            <p className="text-muted-foreground italic">
-              * Mais prints de vendas, vídeos e depoimentos serão adicionados em breve
-            </p>
-          </div>
         </div>
       </div>
     </section>
