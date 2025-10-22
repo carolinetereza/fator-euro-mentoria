@@ -63,7 +63,8 @@ export const Pricing = () => {
               <div className="relative p-6 md:p-12 lg:p-16 space-y-8 md:space-y-10">
                 {/* Title */}
                 <div className="space-y-3 md:space-y-4 pt-12 md:pt-8">
-                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent">
+                  <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-shift" 
+                      style={{ backgroundSize: '200% 200%' }}>
                     FATOR EURO
                   </h3>
                   <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed">
