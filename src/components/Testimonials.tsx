@@ -1,13 +1,13 @@
 import DisplayCards from "@/components/ui/display-cards";
 import mentee1 from "@/assets/mentee-1.png";
-import mentee2 from "@/assets/mentee-2.png";
 import mentee3 from "@/assets/mentee-3.png";
+import mentee4 from "@/assets/mentee-4.png";
 
 export const Testimonials = () => {
   const testimonialCards = [
     {
-      icon: <img src={mentee1} alt="Ana Silva" className="size-8 rounded-full object-cover" />,
-      title: "Ana Silva",
+      icon: <img src={mentee1} alt="Anna Rossi" className="size-8 rounded-full object-cover" />,
+      title: "Anna Rossi",
       description: "Primeira venda em 10 dias",
       date: "E-commerce Owner",
       iconClassName: "text-primary",
@@ -16,8 +16,8 @@ export const Testimonials = () => {
         "[grid-area:stack] hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
     },
     {
-      icon: <img src={mentee2} alt="Pedro Santos" className="size-8 rounded-full object-cover" />,
-      title: "Pedro Santos",
+      icon: <img src={mentee3} alt="Pedro Amorim" className="size-8 rounded-full object-cover" />,
+      title: "Pedro Amorim",
       description: "Caminho certo pela primeira vez",
       date: "Empreendedor Digital",
       iconClassName: "text-primary",
@@ -26,7 +26,7 @@ export const Testimonials = () => {
         "[grid-area:stack] translate-x-16 translate-y-10 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
     },
     {
-      icon: <img src={mentee3} alt="Mariana Costa" className="size-8 rounded-full object-cover" />,
+      icon: <img src={mentee4} alt="Mariana Costa" className="size-8 rounded-full object-cover" />,
       title: "Mariana Costa",
       description: "Vendendo para 3 países",
       date: "Loja de Moda",
@@ -47,11 +47,8 @@ export const Testimonials = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Resultados <span className="bg-gradient-accent bg-clip-text text-transparent">Reais</span> dos Mentorados
+              Eles ativaram o <span className="bg-gradient-accent bg-clip-text text-transparent">Fator Euro™</span>
             </h2>
-            <p className="text-xl text-muted-foreground">
-              Veja o que quem aplicou tem a dizer
-            </p>
           </div>
 
           {/* Testimonials cards */}
