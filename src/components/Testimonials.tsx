@@ -1,26 +1,38 @@
-import { Card } from "@/components/ui/card";
-import { Star, Quote } from "lucide-react";
+import DisplayCards from "@/components/ui/display-cards";
+import { Star } from "lucide-react";
 
 export const Testimonials = () => {
-  const testimonials = [
+  const testimonialCards = [
     {
-      name: "Ana Silva",
-      role: "E-commerce Owner",
-      quote: "Com 10 dias de mentoria, vendi meu primeiro produto sem estoque.",
-      rating: 5
+      icon: <Star className="size-4 text-primary fill-primary" />,
+      title: "Ana Silva",
+      description: "Primeira venda em 10 dias",
+      date: "E-commerce Owner",
+      iconClassName: "text-primary",
+      titleClassName: "text-primary",
+      className:
+        "[grid-area:stack] hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
     },
     {
-      name: "Pedro Santos",
-      role: "Empreendedor Digital",
-      quote: "A primeira vez que alguém realmente me mostrou o caminho certo.",
-      rating: 5
+      icon: <Star className="size-4 text-primary fill-primary" />,
+      title: "Pedro Santos",
+      description: "Caminho certo pela primeira vez",
+      date: "Empreendedor Digital",
+      iconClassName: "text-primary",
+      titleClassName: "text-primary",
+      className:
+        "[grid-area:stack] translate-x-16 translate-y-10 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
     },
     {
-      name: "Mariana Costa",
-      role: "Loja de Moda",
-      quote: "Saí do zero e hoje vendo para 3 países diferentes. Método comprovado.",
-      rating: 5
-    }
+      icon: <Star className="size-4 text-primary fill-primary" />,
+      title: "Mariana Costa",
+      description: "Vendendo para 3 países",
+      date: "Loja de Moda",
+      iconClassName: "text-primary",
+      titleClassName: "text-primary",
+      className:
+        "[grid-area:stack] translate-x-32 translate-y-20 hover:translate-y-10",
+    },
   ];
 
   return (
@@ -40,37 +52,9 @@ export const Testimonials = () => {
             </p>
           </div>
 
-          {/* Testimonials grid */}
-          <div className="grid md:grid-cols-3 gap-8">
-            {testimonials.map((testimonial, index) => (
-              <Card
-                key={index}
-                className="p-8 bg-gradient-card border-border/50 hover:border-primary/50 transition-all duration-300 hover:scale-105 space-y-6"
-              >
-                {/* Quote icon */}
-                <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center">
-                  <Quote className="w-6 h-6 text-primary" />
-                </div>
-
-                {/* Quote */}
-                <p className="text-lg leading-relaxed">
-                  "{testimonial.quote}"
-                </p>
-
-                {/* Rating */}
-                <div className="flex gap-1">
-                  {Array.from({ length: testimonial.rating }).map((_, i) => (
-                    <Star key={i} className="w-5 h-5 fill-primary text-primary" />
-                  ))}
-                </div>
-
-                {/* Author */}
-                <div className="pt-4 border-t border-border/50">
-                  <p className="font-bold">{testimonial.name}</p>
-                  <p className="text-sm text-muted-foreground">{testimonial.role}</p>
-                </div>
-              </Card>
-            ))}
+          {/* Testimonials cards */}
+          <div className="flex justify-center min-h-[400px] py-10">
+            <DisplayCards cards={testimonialCards} />
           </div>
 
           {/* Note */}
