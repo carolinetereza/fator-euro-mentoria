@@ -88,8 +88,7 @@ export const Benefits = () => {
                 Exclusividade Absoluta
               </h3>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Apenas 4 mentorados por mês. Foco total. Resultado rápido.
-                Quem não entra, vai para a Lista de Espera VIP.
+                Apenas 4 mentorados por mês. Quem entra, fatura. Quem demora, assiste os outros lucrando.
               </p>
             </div>
           </div>
