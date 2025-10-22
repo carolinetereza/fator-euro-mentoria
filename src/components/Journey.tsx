@@ -17,7 +17,7 @@ export const Journey = () => {
     {
       icon: Wrench,
       number: "03",
-      title: "Execução Acompanhada",
+      title: "Execução Guiada",
       description: "Mão na massa com meu acompanhamento pessoal."
     },
     {
