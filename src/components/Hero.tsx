@@ -52,13 +52,8 @@ export const Hero = () => {
             </ShinyButton>
           </div>
 
-          <div className="pt-4 space-y-2">
+          <div className="pt-4">
             <p className="font-semibold text-lg">Apenas 4 vagas/mês</p>
-            <p className="text-base md:text-lg text-muted-foreground">
-              Quem entra, fatura.
-              <br />
-              Quem demora, assiste os outros lucrando.
-            </p>
           </div>
 
         </div>
