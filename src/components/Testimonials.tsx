@@ -63,7 +63,7 @@ export const Testimonials = () => {
           {/* Heading above carousel */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Resultados que falam por si
+              <span className="bg-gradient-accent bg-clip-text text-transparent">Resultados</span> que falam por si
             </h2>
           </div>
 
