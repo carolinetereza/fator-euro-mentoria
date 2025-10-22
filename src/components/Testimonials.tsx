@@ -60,16 +60,23 @@ export const Testimonials = () => {
       
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-16 animate-fade-in">
-          {/* Heading */}
+          {/* Heading above carousel */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Eles ativaram o <span className="bg-gradient-accent bg-clip-text text-transparent">Fator Euro™</span>
+              Resultados que falam por si
             </h2>
           </div>
 
           {/* Infinite scroll carousel for result screenshots */}
           <div className="w-full">
             <InfiniteScrollCarousel images={resultImages} />
+          </div>
+
+          {/* Heading below carousel */}
+          <div className="text-center space-y-4">
+            <h2 className="text-4xl md:text-5xl font-bold">
+              Eles ativaram o <span className="bg-gradient-accent bg-clip-text text-transparent">Fator Euro™</span>
+            </h2>
           </div>
 
           {/* Testimonials cards */}
