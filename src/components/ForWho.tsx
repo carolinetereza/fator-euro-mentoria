@@ -3,9 +3,10 @@ import { X, Check } from "lucide-react";
 export const ForWho = () => {
   const isFor = [
     "Já tentou vender online e falhou",
-    "Está cansado(a) de fórmulas vazias",
+    "Quer aprender com quem opera de verdade",
+    "Tá cansado(a) de promessas vazias",
     "Precisa de alguém experiente que te oriente com firmeza",
-    "Quer escalar com inteligência, não com ansiedade"
+    "Quer lucro em moeda forte, não só \"venda simbólica\""
   ];
 
   const notFor = [
