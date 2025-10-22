@@ -3,8 +3,23 @@ import { ThreeDPhotoCarousel } from "@/components/ui/3d-carousel";
 import mentee1 from "@/assets/mentee-1.png";
 import mentee3 from "@/assets/mentee-3.png";
 import mentee4 from "@/assets/mentee-4.png";
+import result1 from "@/assets/result-1.jpeg";
+import result2 from "@/assets/result-2.jpeg";
+import result3 from "@/assets/result-3.jpeg";
+import result4 from "@/assets/result-4.jpeg";
+import result5 from "@/assets/result-5.jpeg";
+import result6 from "@/assets/result-6.jpeg";
+import result7 from "@/assets/result-7.jpeg";
+import result8 from "@/assets/result-8.jpeg";
+import result9 from "@/assets/result-9.jpeg";
+import result10 from "@/assets/result-10.jpeg";
 
 export const Testimonials = () => {
+  const resultImages = [
+    result1, result2, result3, result4, result5, 
+    result6, result7, result8, result9, result10
+  ];
+
   const testimonialCards = [
     {
       icon: <img src={mentee1} alt="Anna Rossi" className="size-8 rounded-full object-cover" />,
@@ -54,7 +69,7 @@ export const Testimonials = () => {
 
           {/* 3D Carousel for result screenshots */}
           <div className="w-full max-w-4xl mx-auto">
-            <ThreeDPhotoCarousel />
+            <ThreeDPhotoCarousel images={resultImages} />
           </div>
 
           {/* Testimonials cards */}
