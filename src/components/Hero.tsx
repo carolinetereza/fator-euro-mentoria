@@ -39,7 +39,7 @@ export const Hero = () => {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Chega de vender por migalha em real. Eu te ensino a transformar tua loja travada em operação que imprime lucro fora do Brasil.
+              Eu te ensino a transformar tua loja travada em operação que imprime lucro fora do Brasil.
             </p>
           </div>
 
