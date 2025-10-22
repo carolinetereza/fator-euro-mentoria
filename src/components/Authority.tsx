@@ -66,18 +66,13 @@ export const Authority = () => {
               
             <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Enquanto os gurus gravam Reels, eu opero lojas que vendem enquanto durmo. 
+                Eu opero lojas reais, com faturamento em euro, dólar e libra. Todos os dias. 
                 Onde tem internet, tem mercado. E eu sei como escalar.
               </p>
               
               <p>
-                Estudei Business Management na Irlanda e Estratégia Corporativa em Londres 
-                e já escalei operações múltiplos países, sem depender de sorte ou fórmulas mágicas.
-              </p>
-              
-              <p>
-                Enquanto muitos "ensinam" e-commerce, eu tô rodando campanhas e vendendo de verdade. 
-                Agora, eu te ensino o mesmo caminho, sem enrolação.
+                Estudei Business Management na Irlanda e Estratégia Corporativa em Londres, 
+                já escalei operações múltiplos países, sem depender de sorte ou fórmulas mágicas.
               </p>
             </div>
 
