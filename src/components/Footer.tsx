@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ShinyButton } from "@/components/ui/shiny-button";
 import { Instagram, Linkedin, MessageCircle } from "lucide-react";
-import logoGoldCrown from "@/assets/logo-gold-crown.png";
+import logoFatorEuro from "@/assets/logo-fator-euro-blue.png";
 
 export const Footer = () => {
   const socialLinks = [
@@ -34,7 +34,7 @@ export const Footer = () => {
             {/* Left side - Branding */}
             <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
               <img 
-                src={logoGoldCrown} 
+                src={logoFatorEuro} 
                 alt="Logo Fator Euro" 
                 className="w-40 md:w-52 h-auto"
               />
