@@ -66,13 +66,18 @@ export const Authority = () => {
               
             <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Enquanto muitos falam, eu opero e-commerces reais em múltiplos países. 
+                Enquanto os gurus gravam Reels, eu opero lojas que vendem enquanto durmo. 
                 Onde tem internet, tem mercado. E eu sei como escalar.
               </p>
               
               <p>
                 Estudei Business Management na Irlanda e Estratégia Corporativa em Londres 
-                e hoje vendo todos os dias em euro, dólar e libra.
+                e já escalei operações múltiplos países, sem depender de sorte ou fórmulas mágicas.
+              </p>
+              
+              <p>
+                Enquanto muitos "ensinam" e-commerce, eu tô rodando campanhas e vendendo de verdade. 
+                Agora, eu te ensino o mesmo caminho, sem enrolação.
               </p>
             </div>
 
@@ -103,10 +108,11 @@ export const Authority = () => {
                 <span className="bg-gradient-accent bg-clip-text text-transparent">
                   Essa mentoria não veio de livro. Veio da prática.
                 </span>{" "}
-                Veio da pressão de quem precisa fazer dar certo, sem desculpa.{" "}
-                <span className="bg-gradient-accent bg-clip-text text-transparent">
-                  E agora, posso te guiar nesse mesmo caminho.
-                </span>
+                Agora, eu te ensino o mesmo caminho, sem enrolação.
+              </p>
+              
+              <p className="text-lg italic pt-4 text-muted-foreground">
+                *Se você tá cansado(a) de perder tempo com promessa, bem-vindo à operação real.
               </p>
             </div>
           </div>
