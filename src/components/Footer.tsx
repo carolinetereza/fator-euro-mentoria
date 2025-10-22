@@ -30,9 +30,9 @@ export const Footer = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Main content */}
-          <div className="grid md:grid-cols-3 gap-12 md:gap-8 items-start">{/* Increased gap for better spacing */}
-            {/* Left side - Branding */}
-            <div className="space-y-6 flex flex-col items-center md:items-start text-center md:text-left">{/* Increased spacing */}
+          <div className="flex flex-col items-center space-y-12">
+            {/* Top - Branding (mobile, tablet, desktop) */}
+            <div className="space-y-6 flex flex-col items-center text-center w-full">
               <img 
                 src={logoFatorEuro} 
                 alt="Logo Fator Euro" 
@@ -43,7 +43,7 @@ export const Footer = () => {
                 <br />
                 Do zero ao lucro real.
               </p>
-              <div className="flex gap-4 justify-center md:justify-start">
+              <div className="flex gap-4 justify-center">
                 {socialLinks.map((link, index) => {
                   const Icon = link.icon;
                   return (
@@ -68,45 +68,48 @@ export const Footer = () => {
               </div>
             </div>
 
-            {/* Middle - Navigation */}
-            <div className="space-y-6 flex flex-col items-center md:items-start text-center md:text-left">{/* Increased spacing */}
-              <h4 className="text-xl md:text-2xl font-bold">Menu</h4>
-              <nav className="flex flex-col gap-2">
-                <button
-                  onClick={() => document.getElementById('authority')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Quem Sou
-                </button>
-                <button
-                  onClick={() => document.getElementById('method')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Método
-                </button>
-                <button
-                  onClick={() => document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Aplicar
-                </button>
-              </nav>
-            </div>
+            {/* Bottom - Menu and Contact side by side */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 w-full md:w-auto items-start justify-center">
+              {/* Navigation */}
+              <div className="space-y-6 flex flex-col items-center text-center">
+                <h4 className="text-xl md:text-2xl font-bold">Menu</h4>
+                <nav className="flex flex-col gap-2">
+                  <button
+                    onClick={() => document.getElementById('authority')?.scrollIntoView({ behavior: 'smooth' })}
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Quem Sou
+                  </button>
+                  <button
+                    onClick={() => document.getElementById('method')?.scrollIntoView({ behavior: 'smooth' })}
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Método
+                  </button>
+                  <button
+                    onClick={() => document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' })}
+                    className="text-muted-foreground hover:text-foreground transition-colors"
+                  >
+                    Aplicar
+                  </button>
+                </nav>
+              </div>
 
-            {/* Right side - Contact */}
-            <div className="space-y-6 flex flex-col items-center md:items-start text-center md:text-left">{/* Increased spacing */}
-              <h4 className="text-xl md:text-2xl font-bold">Entre em Contato</h4>
-              <a
-                href="https://wa.me/5521969574147"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block w-full md:w-auto"
-              >
-                <ShinyButton className="w-full md:w-auto flex items-center justify-center gap-2">
-                  <MessageCircle className="w-5 h-5" />
-                  FALAR NO WHATSAPP
-                </ShinyButton>
-              </a>
+              {/* Contact */}
+              <div className="space-y-6 flex flex-col items-center text-center">
+                <h4 className="text-xl md:text-2xl font-bold">Entre em Contato</h4>
+                <a
+                  href="https://wa.me/5521969574147"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-full md:w-auto"
+                >
+                  <ShinyButton className="w-full md:w-auto flex items-center justify-center gap-2">
+                    <MessageCircle className="w-5 h-5" />
+                    FALAR NO WHATSAPP
+                  </ShinyButton>
+                </a>
+              </div>
             </div>
           </div>
 
