@@ -25,9 +25,8 @@ export const Pricing = () => {
           {/* Heading */}
           <div className="text-center space-y-6">
             <h2 className="text-4xl md:text-6xl font-bold leading-tight">
-              Investimento na Sua{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                Transformação
+                Investimento
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
