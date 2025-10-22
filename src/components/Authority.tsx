@@ -107,7 +107,7 @@ export const Authority = () => {
               </p>
               
               <p className="text-lg italic pt-4 text-muted-foreground">
-                *Se você tá cansado(a) de perder tempo com promessa, bem-vindo à operação real.
+                *Porque no fim, o que paga conta é resultado, não promessa bonita.
               </p>
             </div>
           </div>
