@@ -1,4 +1,5 @@
 import DisplayCards from "@/components/ui/display-cards";
+import { ThreeDPhotoCarousel } from "@/components/ui/3d-carousel";
 import mentee1 from "@/assets/mentee-1.png";
 import mentee3 from "@/assets/mentee-3.png";
 import mentee4 from "@/assets/mentee-4.png";
@@ -49,6 +50,11 @@ export const Testimonials = () => {
             <h2 className="text-4xl md:text-5xl font-bold">
               Eles ativaram o <span className="bg-gradient-accent bg-clip-text text-transparent">Fator Euro™</span>
             </h2>
+          </div>
+
+          {/* 3D Carousel for result screenshots */}
+          <div className="w-full max-w-4xl mx-auto">
+            <ThreeDPhotoCarousel />
           </div>
 
           {/* Testimonials cards */}
