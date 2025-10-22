@@ -3,10 +3,10 @@ import mentorImage from "@/assets/mentor-caroline-new.png";
 
 export const Authority = () => {
   const highlights = [
-    { text: "Resultados reais", icon: TrendingUp },
-    { text: "Prática diária", icon: Target },
-    { text: "Estratégias que vendem todos os dias", icon: Zap },
-    { text: "Mentoria exclusiva e individual", icon: Users }
+    { text: "Vender de verdade. Todos os dias.", icon: TrendingUp },
+    { text: "Aprender com quem vive do próprio faturamento.", icon: Target },
+    { text: "Aplicar, ajustar e lucrar. Sem papo de fórmula.", icon: Zap },
+    { text: "Ter alguém que te guia, não que te ilude.", icon: Users }
   ];
 
   return (
