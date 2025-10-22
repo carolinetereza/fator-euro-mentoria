@@ -68,9 +68,9 @@ export const ApplicationForm = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Pronto para ativar seu{" "}
+              Ative o{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                FATOR EURO™?
+                FATOR EURO™
               </span>
             </h2>
             <p className="text-xl text-muted-foreground">
