@@ -1,5 +1,5 @@
 import { TrendingUp, Target, Zap, Users } from "lucide-react";
-import mentorImage from "@/assets/mentor-authority.png";
+import mentorImage from "@/assets/mentor-caroline-new.png";
 
 export const Authority = () => {
   const highlights = [

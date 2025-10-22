@@ -1,10 +1,12 @@
 import DisplayCards from "@/components/ui/display-cards";
-import { Star } from "lucide-react";
+import mentee1 from "@/assets/mentee-1.png";
+import mentee2 from "@/assets/mentee-2.png";
+import mentee3 from "@/assets/mentee-3.png";
 
 export const Testimonials = () => {
   const testimonialCards = [
     {
-      icon: <Star className="size-4 text-primary fill-primary" />,
+      icon: <img src={mentee1} alt="Ana Silva" className="size-8 rounded-full object-cover" />,
       title: "Ana Silva",
       description: "Primeira venda em 10 dias",
       date: "E-commerce Owner",
@@ -14,7 +16,7 @@ export const Testimonials = () => {
         "[grid-area:stack] hover:-translate-y-10 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
     },
     {
-      icon: <Star className="size-4 text-primary fill-primary" />,
+      icon: <img src={mentee2} alt="Pedro Santos" className="size-8 rounded-full object-cover" />,
       title: "Pedro Santos",
       description: "Caminho certo pela primeira vez",
       date: "Empreendedor Digital",
@@ -24,7 +26,7 @@ export const Testimonials = () => {
         "[grid-area:stack] translate-x-16 translate-y-10 hover:-translate-y-1 before:absolute before:w-[100%] before:outline-1 before:rounded-xl before:outline-border before:h-[100%] before:content-[''] before:bg-blend-overlay before:bg-background/50 grayscale-[100%] hover:before:opacity-0 before:transition-opacity before:duration-700 hover:grayscale-0 before:left-0 before:top-0",
     },
     {
-      icon: <Star className="size-4 text-primary fill-primary" />,
+      icon: <img src={mentee3} alt="Mariana Costa" className="size-8 rounded-full object-cover" />,
       title: "Mariana Costa",
       description: "Vendendo para 3 países",
       date: "Loja de Moda",
