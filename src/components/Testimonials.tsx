@@ -1,5 +1,5 @@
 import DisplayCards from "@/components/ui/display-cards";
-import { ThreeDPhotoCarousel } from "@/components/ui/3d-carousel";
+import { InfiniteScrollCarousel } from "@/components/ui/infinite-scroll-carousel";
 import mentee1 from "@/assets/mentee-1.png";
 import mentee3 from "@/assets/mentee-3.png";
 import mentee4 from "@/assets/mentee-4.png";
@@ -67,9 +67,9 @@ export const Testimonials = () => {
             </h2>
           </div>
 
-          {/* 3D Carousel for result screenshots */}
-          <div className="w-full max-w-4xl mx-auto">
-            <ThreeDPhotoCarousel images={resultImages} />
+          {/* Infinite scroll carousel for result screenshots */}
+          <div className="w-full">
+            <InfiniteScrollCarousel images={resultImages} />
           </div>
 
           {/* Testimonials cards */}
