@@ -8,17 +8,17 @@ export const Method = () => {
     {
       letter: "E",
       title: "Execução Guiada",
-      description: "Criação e montagem da sua loja comigo, sem achismos."
+      description: "Montamos tua loja juntos. Sem achismo, sem enrolação."
     },
     {
       letter: "N",
       title: "Negócio Otimizado",
-      description: "SEO, layout, copy e técnica afinados pra escala."
+      description: "Copy, SEO e design ajustados pra escalar."
     },
     {
       letter: "D",
       title: "Disparo de Vendas",
-      description: "Campanha validada e suporte até as vendas acontecerem."
+      description: "Campanha validada, tráfego real e suporte até bater o lucro."
     }
   ];
 
@@ -32,11 +32,10 @@ export const Method = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Criadora do método <span className="bg-gradient-accent bg-clip-text text-transparent">V.E.N.D.®</span>
+              O Método <span className="bg-gradient-accent bg-clip-text text-transparent">V.E.N.D.®</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Criei esse método operando lojas reais. Ele não vem de livro.
-              Vem do campo de batalha.
+              Criado no campo de batalha. Refinado em operações que vendem todos os dias.
             </p>
           </div>
 
