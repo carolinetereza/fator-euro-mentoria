@@ -9,17 +9,17 @@ export const Benefits = () => {
     },
     {
       icon: Target,
-      title: "Campanhas Reais em Funcionamento",
-      description: "Veja e use campanhas que estão no ar, com dados reais de vendas."
+      title: "Campanhas Reais e Dados de Vendas",
+      description: "Aqui você vê o que funciona. Não a teoria."
     },
     {
       icon: FileText,
-      title: "Copy, Oferta e Criativos Supervisionados",
+      title: "Copy, Criativo e Oferta Revisados por Mim",
       description: "Eu reviso, melhoro e aprovo. Comunicação que converte."
     },
     {
       icon: Search,
-      title: "Loja Otimizada com SEO Estratégico",
+      title: "SEO Estratégico e Estrutura de Conversão",
       description: "Atrai tráfego qualificado sem gastar mais."
     },
     {
@@ -30,12 +30,12 @@ export const Benefits = () => {
     {
       icon: MessageSquare,
       title: "Suporte VIP por WhatsApp",
-      description: "Respostas rápidas, direção clara, ajustes certeiros."
+      description: "Nada de esperar dias pra resposta. Aqui o suporte é direto do meu WhatsApp pessoal."
     },
     {
       icon: Shield,
-      title: "Vender em até 15 dias ou Refaço Tudo Com Você",
-      description: "Simples assim. Comprometimento com resultado."
+      title: "Compromisso real",
+      description: "Se não vender, eu refaço tudo contigo."
     },
     {
       icon: Award,
@@ -51,7 +51,7 @@ export const Benefits = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              O Que Você <span className="bg-gradient-accent bg-clip-text text-transparent">Realmente Recebe</span>
+              O Que Você <span className="bg-gradient-accent bg-clip-text text-transparent">Recebe</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Sem estoque • Sem enrolação • Sem fórmula mágica
