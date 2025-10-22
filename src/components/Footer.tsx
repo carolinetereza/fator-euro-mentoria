@@ -30,9 +30,9 @@ export const Footer = () => {
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Main content */}
-          <div className="grid md:grid-cols-3 gap-8 items-start">
+          <div className="grid md:grid-cols-3 gap-12 md:gap-8 items-start">{/* Increased gap for better spacing */}
             {/* Left side - Branding */}
-            <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="space-y-6 flex flex-col items-center md:items-start text-center md:text-left">{/* Increased spacing */}
               <img 
                 src={logoFatorEuro} 
                 alt="Logo Fator Euro" 
@@ -69,7 +69,7 @@ export const Footer = () => {
             </div>
 
             {/* Middle - Navigation */}
-            <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="space-y-6 flex flex-col items-center md:items-start text-center md:text-left">{/* Increased spacing */}
               <h4 className="text-xl md:text-2xl font-bold">Menu</h4>
               <nav className="flex flex-col gap-2">
                 <button
@@ -94,7 +94,7 @@ export const Footer = () => {
             </div>
 
             {/* Right side - Contact */}
-            <div className="space-y-4 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="space-y-6 flex flex-col items-center md:items-start text-center md:text-left">{/* Increased spacing */}
               <h4 className="text-xl md:text-2xl font-bold">Entre em Contato</h4>
               <a
                 href="https://wa.me/5521969574147"

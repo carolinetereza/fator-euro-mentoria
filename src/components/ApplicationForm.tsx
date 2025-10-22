@@ -89,8 +89,8 @@ export const ApplicationForm = () => {
             
             <form
               onSubmit={handleSubmit}
-              className="relative bg-gradient-card rounded-3xl border border-primary/30 p-8 md:p-12 space-y-8"
-            >
+              className="relative bg-gradient-to-br from-card/90 via-card/95 to-background/90 backdrop-blur-2xl rounded-3xl border border-primary/20 shadow-[0_20px_80px_-20px_rgba(114,166,191,0.4)] p-8 md:p-12 space-y-8"
+            >{/* Matched Pricing form colors */}
               <h3 className="text-2xl font-bold text-center">
                 Aplicação para a Mentoria FATOR EURO™
               </h3>
