@@ -3,16 +3,16 @@ import { InfiniteScrollCarousel } from "@/components/ui/infinite-scroll-carousel
 import mentee1 from "@/assets/mentee-1.png";
 import mentee3 from "@/assets/mentee-3.png";
 import mentee4 from "@/assets/mentee-4.png";
-import result1 from "@/assets/result-1.jpeg";
-import result2 from "@/assets/result-2.jpeg";
-import result3 from "@/assets/result-3.jpeg";
-import result4 from "@/assets/result-4.jpeg";
-import result5 from "@/assets/result-5.jpeg";
-import result6 from "@/assets/result-6.jpeg";
-import result7 from "@/assets/result-7.jpeg";
-import result8 from "@/assets/result-8.jpeg";
-import result9 from "@/assets/result-9.jpeg";
-import result10 from "@/assets/result-10.jpeg";
+import result1 from "@/assets/result-new-1.png";
+import result2 from "@/assets/result-new-2.png";
+import result3 from "@/assets/result-new-3.png";
+import result4 from "@/assets/result-new-4.png";
+import result5 from "@/assets/result-new-5.png";
+import result6 from "@/assets/result-new-6.png";
+import result7 from "@/assets/result-new-7.png";
+import result8 from "@/assets/result-new-8.png";
+import result9 from "@/assets/result-new-9.png";
+import result10 from "@/assets/result-new-10.png";
 
 export const Testimonials = () => {
   const resultImages = [
