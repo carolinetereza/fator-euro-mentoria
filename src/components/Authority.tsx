@@ -6,7 +6,7 @@ export const Authority = () => {
     { text: "Vender de verdade. Todos os dias.", icon: TrendingUp },
     { text: "Aprender com quem vive do próprio faturamento.", icon: Target },
     { text: "Aplicar, ajustar e lucrar. Sem papo de fórmula.", icon: Zap },
-    { text: "ter alguém que te guie, não que te iluda.", icon: Users }
+    { text: "Ter alguém que te guie, não que te iluda.", icon: Users }
   ];
 
   return (
