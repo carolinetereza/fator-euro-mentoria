@@ -72,7 +72,7 @@ export const Authority = () => {
               
               <p>
                 Estudei Business Management na Irlanda e Estratégia Corporativa em Londres, 
-                já escalei operações múltiplos países, sem depender de sorte ou fórmulas mágicas.
+                já escalei operações em múltiplos países, sem depender de sorte ou fórmulas mágicas.
               </p>
             </div>
 
