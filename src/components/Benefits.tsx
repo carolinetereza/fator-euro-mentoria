@@ -18,11 +18,6 @@ export const Benefits = () => {
       description: "Modelo aplicado em operações reais."
     },
     {
-      icon: MessageSquare,
-      title: "Suporte prioritário",
-      description: "Contato direto e acompanhamento contínuo."
-    },
-    {
       icon: Shield,
       title: "Compromisso estratégico",
       description: "Enquanto houver execução disciplinada, haverá ajustes até estabilizar a operação."
