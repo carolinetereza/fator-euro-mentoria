@@ -35,11 +35,11 @@ export const Hero = () => {
               Estratégia para Operações
               <br />
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                Digitais Internacionais
+                Internacionais
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Transforme sua operação em uma operação global. Fature em euro, dólar e libra com estrutura, margem e posicionamento.
+              Transforme sua operação em uma operação global. Fature em euro, dólar e libra.
             </p>
           </div>
 
