@@ -4,43 +4,28 @@ export const Benefits = () => {
   const benefits = [
     {
       icon: Video,
-      title: "Sessões 1:1 comigo (Zoom/Meet)",
-      description: "Mentoria personalizada. Olho no olho. Nada de vídeo gravado."
+      title: "Acompanhamento privado 1:1 ao vivo",
+      description: "Acompanhamento estratégico direto comigo."
     },
     {
       icon: Target,
-      title: "Campanhas Reais e Dados de Vendas",
-      description: "Rastreamentos VIP liberados. Aqui você vê o que funciona. Não a teoria."
-    },
-    {
-      icon: FileText,
-      title: "Copy, Criativo e Oferta Revisados por Mim",
-      description: "Eu reviso, melhoro e aprovo. Comunicação que converte."
-    },
-    {
-      icon: Search,
-      title: "SEO Estratégico e Estrutura de Conversão",
-      description: "Atrai tráfego qualificado sem gastar mais."
+      title: "Supervisão completa da operação",
+      description: "Copy, oferta, tráfego e SEO revisados estrategicamente."
     },
     {
       icon: Store,
-      title: "Seu Shopify Sob Minha Mentoria Direta",
-      description: "Nada de genérico. Estratégia personalizada para sua loja real."
+      title: "Estrutura validada para escala internacional",
+      description: "Modelo aplicado em operações reais."
     },
     {
       icon: MessageSquare,
-      title: "Suporte VIP por WhatsApp",
-      description: "Nada de esperar dias pra resposta. Aqui o suporte é direto do meu WhatsApp pessoal."
-    },
-    {
-      icon: Award,
-      title: "Modelo de Loja Campeã",
-      description: "Receba estrutura validada para conversão máxima."
+      title: "Suporte prioritário",
+      description: "Contato direto e acompanhamento contínuo."
     },
     {
       icon: Shield,
-      title: "Compromisso real",
-      description: "Se não vender, eu refaço tudo contigo."
+      title: "Compromisso estratégico",
+      description: "Enquanto houver execução disciplinada, haverá ajustes até estabilizar a operação."
     }
   ];
 
@@ -51,11 +36,8 @@ export const Benefits = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              O Que Você <span className="bg-gradient-accent bg-clip-text text-transparent">Recebe</span>
+              O Que Está <span className="bg-gradient-accent bg-clip-text text-transparent">Incluso</span>
             </h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Sem estoque • Sem enrolação • Sem fórmula mágica
-            </p>
           </div>
 
           {/* Benefits grid */}
@@ -88,7 +70,7 @@ export const Benefits = () => {
                 Exclusividade Absoluta
               </h3>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Apenas 4 mentorados por mês. Quem entra, fatura. Quem demora, assiste os outros lucrando.
+                Apenas 4 mentorados por mês. Acesso mediante aplicação estratégica.
               </p>
             </div>
           </div>

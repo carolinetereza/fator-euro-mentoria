@@ -32,14 +32,14 @@ export const Hero = () => {
           {/* Main Content */}
           <div className="space-y-6">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              Fature em euro, dólar e libra.
+              Estratégia para Operações
               <br />
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                Escale para o mundo.
+                Digitais Internacionais
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Transforme tua loja em operação que imprime lucro global.
+              Transforme sua operação em uma operação global. Fature em euro, dólar e libra com estrutura, margem e posicionamento.
             </p>
           </div>
 

@@ -9,13 +9,13 @@ export const Pricing = () => {
 
   const includes = [
     "Sessões privadas 1:1 ao vivo",
-    "Eu botando a mão na sua loja, junto com você",
-    "Estrutura de loja campeã",
-    "Supervisão total de tráfego, copy e SEO"
+    "Supervisão completa da operação",
+    "Estrutura validada para escala internacional",
+    "Suporte prioritário e acompanhamento contínuo"
   ];
 
   return (
-    <section id="pricing" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">{/* Added id */}
+    <section id="pricing" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute top-1/4 left-1/4 w-[800px] h-[800px] bg-primary/5 blur-[150px] rounded-full animate-pulse" />
       <div className="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-primary/5 blur-[150px] rounded-full animate-pulse" style={{ animationDelay: '1s' }} />
@@ -30,7 +30,7 @@ export const Pricing = () => {
               </span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Uma mentoria que transforma sua operação em resultados reais
+              Estruture sua operação para competir globalmente.
             </p>
           </div>
 
@@ -64,36 +64,33 @@ export const Pricing = () => {
                 <div className="space-y-3 md:space-y-4 pt-12 md:pt-8">
                   <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-shift" 
                       style={{ backgroundSize: '200% 200%' }}>
-                    FATOR EURO
+                    Mentoria Privada FATOR EURO™
                   </h3>
                   <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                    Venda sem estoque, do zero ao lucro real.
+                    Estruture sua operação para competir globalmente.
                   </p>
                 </div>
 
-                {/* Price - Enhanced with better hierarchy */}
+                {/* Price */}
                 <div className="space-y-4 md:space-y-5 py-6 md:py-8">
                   <div className="flex flex-wrap items-center gap-3 md:gap-4">
                     <span className="text-xl md:text-2xl lg:text-3xl text-muted-foreground/60 line-through font-light">
-                      De R$ 7.997
-                    </span>
-                    <span className="px-4 py-1.5 md:px-5 md:py-2 bg-gradient-to-r from-primary/20 to-accent/20 border border-primary/30 text-primary text-xs md:text-sm font-bold rounded-full shadow-lg">
-                      50% OFF
+                      De R$ 9.999
                     </span>
                   </div>
                   <div className="flex flex-wrap items-baseline gap-3 md:gap-4">
                     <span className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-shift" 
                           style={{ backgroundSize: '200% 200%' }}>
-                      R$ 3.997
+                      R$ 5.987
                     </span>
                     <span className="text-lg md:text-xl lg:text-2xl text-muted-foreground font-medium">à vista</span>
                   </div>
                   <p className="text-base md:text-lg lg:text-xl text-muted-foreground/80 font-medium">
-                    ou 3x de R$ 1.332,33 sem juros
+                    ou parcelado
                   </p>
                 </div>
 
-                {/* Includes - Enhanced with modern icons */}
+                {/* Includes */}
                 <div className="space-y-5 md:space-y-6">
                   <h4 className="text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
                     O que está incluso:
@@ -118,23 +115,23 @@ export const Pricing = () => {
                   </div>
                 </div>
 
-                {/* CTA - Modern gradient button */}
+                {/* CTA */}
                 <div className="relative">
                   <ShinyButton 
                     className="relative w-full text-sm md:text-base lg:text-xl font-bold py-6 md:py-7 lg:py-9 rounded-xl md:rounded-2xl shadow-[0_0_40px_rgba(99,102,241,0.3)] hover:shadow-[0_8px_60px_rgba(99,102,241,0.6)] transition-all duration-500"
                     onClick={scrollToForm}
                   >
-                    GARANTIR MINHA VAGA AGORA
+                    GARANTIR MINHA APLICAÇÃO
                   </ShinyButton>
                 </div>
 
                 {/* Limited slots */}
                 <div className="text-center space-y-2 pt-4">
                   <p className="text-sm md:text-base lg:text-lg text-muted-foreground">
-                    Vagas limitadas. Apenas 4 mentorados por mês.
+                    Apenas 4 vagas por mês. Acesso mediante aplicação estratégica.
                   </p>
                   <p className="text-base md:text-lg lg:text-xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-                    Não é para curiosos. É para quem quer lucro real.
+                    Não é para curiosos. É para quem leva negócio a sério.
                   </p>
                 </div>
               </div>
