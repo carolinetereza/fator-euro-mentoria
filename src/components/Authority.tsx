@@ -75,34 +75,6 @@ export const Authority = () => {
 
             </div>
 
-            {/* What matters section */}
-            <div className="space-y-6 pt-8">
-              <h3 className="text-2xl md:text-3xl font-bold">
-                Esse acompanhamento não nasceu de <span className="bg-gradient-accent bg-clip-text text-transparent">teoria. Nasceu de operação real.</span>
-              </h3>
-
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Você não precisa de mais conteúdo. Precisa de direção estratégica e execução supervisionada.
-              </p>
-              
-              <div className="grid gap-4">
-                {highlights.map((highlight, index) => {
-                  const Icon = highlight.icon;
-                  return (
-                    <div
-                      key={index}
-                      className="group flex items-center gap-3 p-4 bg-card/30 backdrop-blur-sm rounded-xl border border-primary/20 hover:border-primary/40 transition-all duration-300 hover:scale-105 hover:shadow-[0_8px_40px_rgba(114,166,191,0.3)]"
-                    >
-                      <div className="w-10 h-10 rounded-xl bg-gradient-accent flex items-center justify-center flex-shrink-0 shadow-lg group-hover:shadow-[0_8px_30px_rgba(114,166,191,0.5)] transition-all duration-300 group-hover:scale-110">
-                        <Icon className="w-5 h-5 text-background stroke-[1.5]" />
-                      </div>
-                      <span className="font-semibold">{highlight.text}</span>
-                    </div>
-                  );
-                })}
-              </div>
-              
-            </div>
           </div>
         </div>
       </div>
