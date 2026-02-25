@@ -4,7 +4,6 @@ export const ForWho = () => {
   const isFor = [
     "Já tentou vender globalmente e quer estruturar corretamente",
     "Busca faturar em moeda forte e expandir",
-    "Está cansado(a) de promessas vazias",
     "Quer orientação firme e estratégica",
     "Está disposto(a) a executar"
   ];
