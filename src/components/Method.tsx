@@ -66,14 +66,6 @@ export const Method = () => {
             ))}
           </div>
 
-          {/* Closing statement */}
-          <div className="text-center">
-            <p className="text-xl md:text-2xl font-semibold max-w-3xl mx-auto leading-relaxed">
-              Esse é o processo que transforma uma loja instável em uma
-              <br />
-              <span className="bg-gradient-accent bg-clip-text text-transparent">operação sólida.</span>
-            </p>
-          </div>
         </div>
       </div>
     </section>

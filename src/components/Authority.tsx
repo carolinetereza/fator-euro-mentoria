@@ -73,16 +73,12 @@ export const Authority = () => {
                 Formação em Business Management na Irlanda e Estratégia Corporativa em Londres. Experiência prática em expansão, escala e consolidação de operações digitais.
               </p>
 
-              <p>
-                Aqui você não aprende a "tentar vender".
-                Você aprende a estruturar um negócio para crescer com previsibilidade.
-              </p>
             </div>
 
             {/* What matters section */}
             <div className="space-y-6 pt-8">
               <h3 className="text-2xl md:text-3xl font-bold">
-                Essa mentoria não nasceu de <span className="bg-gradient-accent bg-clip-text text-transparent">teoria. Nasceu de operação real.</span>
+                Esse acompanhamento não nasceu de <span className="bg-gradient-accent bg-clip-text text-transparent">teoria. Nasceu de operação real.</span>
               </h3>
 
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -106,9 +102,6 @@ export const Authority = () => {
                 })}
               </div>
               
-              <p className="text-lg italic pt-4 text-muted-foreground">
-                Porque no fim, o que sustenta uma empresa não é promessa. É margem, controle e resultado.
-              </p>
             </div>
           </div>
         </div>
