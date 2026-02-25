@@ -3,9 +3,9 @@ import mentorImage from "@/assets/mentor-caroline-new.png";
 
 export const Authority = () => {
   const highlights = [
-    { text: "Vender de verdade. Todos os dias.", icon: TrendingUp },
-    { text: "Aprender com quem vive do próprio faturamento.", icon: Target },
-    { text: "Aplicar, ajustar e lucrar. Sem papo de fórmula.", icon: Zap },
+    { text: "Estruturar um negócio para crescer com previsibilidade.", icon: TrendingUp },
+    { text: "Direção estratégica e execução supervisionada.", icon: Target },
+    { text: "Sem fórmulas mágicas. Sem atalhos ilusórios.", icon: Zap },
     { text: "Ter alguém que te guie, não que te iluda.", icon: Users }
   ];
 
@@ -34,7 +34,7 @@ export const Authority = () => {
               </div>
             </div>
             <p className="text-2xl font-semibold text-center">
-              Não sou guru. Nem influencer. <span className="bg-gradient-accent bg-clip-text text-transparent">Sou operadora.</span>
+              Não sou guru. Não sou influenciadora. <span className="bg-gradient-accent bg-clip-text text-transparent">Sou estrategista e operadora.</span>
             </p>
           </div>
 
@@ -59,28 +59,35 @@ export const Authority = () => {
             <div className="space-y-6 lg:hidden">
               <h3 className="text-3xl md:text-4xl font-bold leading-tight text-center">
                 Não sou guru.<br />
-                Nem influencer.<br />
-                <span className="bg-gradient-accent bg-clip-text text-transparent">Sou operadora.</span>
+                Não sou influenciadora.<br />
+                <span className="bg-gradient-accent bg-clip-text text-transparent">Sou estrategista e operadora.</span>
               </h3>
             </div>
               
             <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
               <p>
-                Eu opero lojas reais, com faturamento em euro, dólar e libra. Todos os dias. 
-                Onde tem internet, tem mercado. E eu sei como escalar.
+                Atuo diretamente em e-commerces com faturamento internacional, estruturando operações que vendem diariamente em múltiplas moedas.
               </p>
               
               <p>
-                Estudei Business Management na Irlanda e Estratégia Corporativa em Londres, 
-                já escalei operações em múltiplos países, sem depender de sorte ou fórmulas mágicas.
+                Formação em Business Management na Irlanda e Estratégia Corporativa em Londres. Experiência prática em expansão, escala e consolidação de operações digitais.
+              </p>
+
+              <p>
+                Aqui você não aprende a "tentar vender".
+                Você aprende a estruturar um negócio para crescer com previsibilidade.
               </p>
             </div>
 
             {/* What matters section */}
             <div className="space-y-6 pt-8">
               <h3 className="text-2xl md:text-3xl font-bold">
-                Mas o que <span className="bg-gradient-accent bg-clip-text text-transparent">realmente importa?</span>
+                Essa mentoria não nasceu de <span className="bg-gradient-accent bg-clip-text text-transparent">teoria. Nasceu de operação real.</span>
               </h3>
+
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Você não precisa de mais conteúdo. Precisa de direção estratégica e execução supervisionada.
+              </p>
               
               <div className="grid gap-4">
                 {highlights.map((highlight, index) => {
@@ -99,15 +106,8 @@ export const Authority = () => {
                 })}
               </div>
               
-              <p className="font-semibold text-xl pt-6">
-                <span className="bg-gradient-accent bg-clip-text text-transparent">
-                  Essa mentoria não veio de livro. Veio da prática.
-                </span>{" "}
-                Agora, eu te ensino o mesmo caminho, sem enrolação.
-              </p>
-              
               <p className="text-lg italic pt-4 text-muted-foreground">
-                *Porque no fim, o que paga conta é resultado, não promessa bonita.
+                Porque no fim, o que sustenta uma empresa não é promessa. É margem, controle e resultado.
               </p>
             </div>
           </div>

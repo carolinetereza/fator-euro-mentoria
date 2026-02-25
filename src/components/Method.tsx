@@ -3,27 +3,27 @@ export const Method = () => {
     {
       letter: "V",
       title: "Visão Estratégica",
-      description: "Análise profunda do seu nicho, produto e estrutura."
+      description: "Diagnóstico profundo de mercado, produto e potencial de escala."
     },
     {
       letter: "E",
-      title: "Execução Guiada",
-      description: "Montamos tua loja juntos. Sem achismo, sem enrolação."
+      title: "Estruturação Executiva",
+      description: "Arquitetura de loja, posicionamento e oferta para conversão global."
     },
     {
       letter: "N",
-      title: "Negócio Otimizado",
-      description: "Copy, SEO e design ajustados pra escalar."
+      title: "Normalização de Performance",
+      description: "Otimização de copy, tráfego e SEO para previsibilidade de receita."
     },
     {
       letter: "D",
-      title: "Disparo de Vendas",
-      description: "Campanha validada, tráfego real e suporte até bater o lucro."
+      title: "Domínio de Mercado",
+      description: "Escala estruturada com controle de margem e crescimento sustentável."
     }
   ];
 
   return (
-    <section id="method" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">{/* Added id */}
+    <section id="method" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-radial from-primary/5 to-transparent" />
       
@@ -35,7 +35,7 @@ export const Method = () => {
               O Método <span className="bg-gradient-accent bg-clip-text text-transparent">V.E.N.D.®</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Criado no campo de batalha. Refinado em operações que vendem todos os dias.
+              Criado na prática. Refinado em operações internacionais.
             </p>
           </div>
 
@@ -69,9 +69,9 @@ export const Method = () => {
           {/* Closing statement */}
           <div className="text-center">
             <p className="text-xl md:text-2xl font-semibold max-w-3xl mx-auto leading-relaxed">
-              Esse é o passo a passo que transforma loja travada em operação lucrativa.
+              Esse é o processo que transforma uma loja instável em uma
               <br />
-              <span className="bg-gradient-accent bg-clip-text text-transparent">E agora é a sua vez de aplicar ele comigo.</span>
+              <span className="bg-gradient-accent bg-clip-text text-transparent">operação sólida.</span>
             </p>
           </div>
         </div>

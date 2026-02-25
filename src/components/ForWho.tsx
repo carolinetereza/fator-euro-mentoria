@@ -2,18 +2,18 @@ import { X, Check } from "lucide-react";
 
 export const ForWho = () => {
   const isFor = [
-    "Já tentou vender online e falhou",
-    "Quer aprender com quem opera de verdade",
-    "Tá cansado(a) de promessas vazias",
-    "Precisa de alguém experiente que te oriente com firmeza",
-    "Quer lucro em moeda forte, não só \"venda simbólica\""
+    "Já tentou vender globalmente e quer estruturar corretamente",
+    "Busca faturar em moeda forte e expandir",
+    "Está cansado(a) de promessas vazias",
+    "Quer orientação firme e estratégica",
+    "Está disposto(a) a executar"
   ];
 
   const notFor = [
     "Busca fórmula mágica",
-    "Quer resultado sem esforço",
-    "Não está disposto(a) a aplicar",
-    "Procura conteúdo genérico"
+    "Quer resultado sem aplicar",
+    "Procura entretenimento digital",
+    "Não está pronto(a) para jogar em nível global"
   ];
 
   return (
@@ -23,7 +23,7 @@ export const ForWho = () => {
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Essa Mentoria É <span className="bg-gradient-accent bg-clip-text text-transparent">Para Você Se...</span>
+              Essa Mentoria É <span className="bg-gradient-accent bg-clip-text text-transparent">Para Você Se:</span>
             </h2>
           </div>
 
