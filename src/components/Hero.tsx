@@ -1,25 +1,36 @@
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
 import { ShinyButton } from "@/components/ui/shiny-button";
+import { ParticleBackground } from "@/components/ParticleBackground";
 import mentorImage from "@/assets/mentor-caroline-new.png";
-import mentee1 from "@/assets/mentee-1.png";
-import mentee2 from "@/assets/mentee-2.png";
-import mentee3 from "@/assets/mentee-3.png";
-import mentee4 from "@/assets/mentee-4.png";
 
 export const Hero = () => {
+  const sectionRef = useRef<HTMLDivElement>(null);
+  const h1Ref = useRef<HTMLHeadingElement>(null);
+  const pRef = useRef<HTMLParagraphElement>(null);
+  const btnRef = useRef<HTMLDivElement>(null);
+  const badgeRef = useRef<HTMLDivElement>(null);
+
   const scrollToForm = () => {
     document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' });
   };
 
+  useEffect(() => {
+    const tl = gsap.timeline({ defaults: { ease: "power3.out" } });
+    tl.fromTo(h1Ref.current, { y: 80, opacity: 0 }, { y: 0, opacity: 1, duration: 1 })
+      .fromTo(pRef.current, { y: 40, opacity: 0 }, { y: 0, opacity: 1, duration: 0.8 }, "-=0.5")
+      .fromTo(btnRef.current, { y: 30, opacity: 0, scale: 0.9 }, { y: 0, opacity: 1, scale: 1, duration: 0.7 }, "-=0.4")
+      .fromTo(badgeRef.current, { y: 20, opacity: 0 }, { y: 0, opacity: 1, duration: 0.6 }, "-=0.3");
+    return () => { tl.kill(); };
+  }, []);
+
   return (
-    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero pt-20">
+    <section id="hero" ref={sectionRef} className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero pt-20">
+      <ParticleBackground />
+
       {/* Background mentor image */}
       <div className="absolute inset-0 opacity-10">
-        <img 
-          src={mentorImage} 
-          alt="Caroline Morette" 
-          className="w-full h-full object-cover object-center"
-          loading="lazy"
-        />
+        <img src={mentorImage} alt="Caroline Morette" className="w-full h-full object-cover object-center" loading="lazy" />
       </div>
       
       {/* Background effects */}
@@ -28,34 +39,29 @@ export const Hero = () => {
       <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-secondary/5 blur-[120px] rounded-full" />
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="max-w-5xl mx-auto text-center space-y-10 animate-fade-in-up">
-          {/* Main Content */}
+        <div className="max-w-5xl mx-auto text-center space-y-10">
           <div className="space-y-6">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
+            <h1 ref={h1Ref} className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0">
               Estratégia para Operações
               <br />
               <span className="bg-gradient-accent bg-clip-text text-transparent">
                 Internacionais
               </span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
+            <p ref={pRef} className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto opacity-0">
               Transforme sua operação em uma operação global. Fature em euro, dólar e libra.
             </p>
           </div>
 
-          <div>
-            <ShinyButton 
-              onClick={scrollToForm}
-              className="group"
-            >
+          <div ref={btnRef} className="opacity-0">
+            <ShinyButton onClick={scrollToForm} className="group">
               APLICAR AGORA
             </ShinyButton>
           </div>
 
-          <div className="pt-4">
+          <div ref={badgeRef} className="pt-4 opacity-0">
             <p className="font-semibold text-lg">Apenas 4 vagas/mês</p>
           </div>
-
         </div>
       </div>
 
