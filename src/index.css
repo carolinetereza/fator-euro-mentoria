@@ -2,56 +2,75 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
-
 @layer base {
   :root {
-    --background: 0 0% 0%;
-    --foreground: 0 0% 98%;
+    /* Luxury warm palette */
+    --background: 40 20% 97%;
+    --foreground: 0 0% 12%;
 
-    --card: 238 20% 12%;
-    --card-foreground: 0 0% 98%;
+    --card: 40 15% 95%;
+    --card-foreground: 0 0% 12%;
 
-    --popover: 238 20% 12%;
-    --popover-foreground: 0 0% 98%;
+    --popover: 40 15% 95%;
+    --popover-foreground: 0 0% 12%;
 
-    --primary: 238 84% 67%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 35 30% 52%;
+    --primary-foreground: 40 20% 97%;
 
-    --secondary: 217 81% 54%;
-    --secondary-foreground: 0 0% 98%;
+    --secondary: 0 0% 15%;
+    --secondary-foreground: 40 20% 97%;
 
-    --muted: 238 20% 26%;
-    --muted-foreground: 238 10% 65%;
+    --muted: 40 10% 90%;
+    --muted-foreground: 0 0% 45%;
 
-    --accent: 186 93% 82%;
-    --accent-foreground: 0 0% 3%;
+    --accent: 35 40% 65%;
+    --accent-foreground: 0 0% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 238 20% 20%;
-    --input: 238 20% 20%;
-    --ring: 238 84% 67%;
+    --border: 40 15% 88%;
+    --input: 40 15% 88%;
+    --ring: 35 30% 52%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* Premium gradients - using new indigo/blue/cyan colors */
-    --gradient-primary: linear-gradient(135deg, hsl(238, 84%, 67%), hsl(217, 81%, 54%));
-    --gradient-hero: linear-gradient(180deg, hsl(0, 0%, 3%) 0%, hsl(238, 20%, 12%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(238, 20%, 15%), hsl(217, 40%, 20%));
-    --gradient-accent: linear-gradient(90deg, hsl(238, 84%, 67%), hsl(186, 93%, 82%));
-    
-    /* Shadows - updated with new primary color */
-    --shadow-premium: 0 20px 60px -15px hsl(238, 84%, 30%);
-    --shadow-glow: 0 0 40px hsl(238, 84%, 50%);
-    --shadow-card: 0 10px 30px -10px hsl(0, 0%, 0%);
+    /* Gold champagne */
+    --gold: 35 60% 55%;
+    --gold-light: 35 50% 75%;
+    --gold-dark: 35 40% 35%;
 
-    /* Animations */
+    /* Dark luxury */
+    --charcoal: 0 0% 12%;
+    --charcoal-light: 0 0% 20%;
+
+    /* Luxury gradients */
+    --gradient-hero: linear-gradient(180deg, hsl(0, 0%, 8%) 0%, hsl(0, 0%, 14%) 100%);
+    --gradient-gold: linear-gradient(135deg, hsl(35, 60%, 55%), hsl(35, 50%, 75%));
+    --gradient-dark: linear-gradient(180deg, hsl(0, 0%, 10%) 0%, hsl(0, 0%, 6%) 100%);
+
+    /* Shadows */
+    --shadow-luxury: 0 20px 60px -15px hsl(0, 0%, 0%, 0.15);
+    --shadow-glow-gold: 0 0 60px hsl(35, 60%, 55%, 0.15);
+    --shadow-soft: 0 4px 20px hsl(0, 0%, 0%, 0.06);
+
+    /* Glass */
+    --glass-bg: hsl(40, 20%, 97%, 0.6);
+    --glass-border: hsl(40, 15%, 88%, 0.5);
+
+    /* Transitions */
+    --transition-luxury: all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-    --transition-bounce: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  }
+
+  .dark-section {
+    --background: 0 0% 8%;
+    --foreground: 40 20% 97%;
+    --card: 0 0% 12%;
+    --card-foreground: 40 20% 97%;
+    --muted: 0 0% 18%;
+    --muted-foreground: 40 10% 65%;
+    --border: 0 0% 20%;
   }
 }
 
@@ -61,25 +80,117 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Outfit', sans-serif;
+    cursor: none;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  /* Hide default cursor on interactive elements */
+  a, button, [role="button"], input, textarea, select {
+    cursor: none;
   }
 }
 
 @layer components {
-  .gradient-button {
-    background: linear-gradient(90deg, hsl(238, 84%, 67%), hsl(217, 81%, 54%));
-    transition: all 0.3s ease;
+  .glass-card {
+    background: var(--glass-bg);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid var(--glass-border);
   }
 
-  .gradient-button:hover {
-    transform: translateY(-4px);
+  .glass-card-dark {
+    background: hsl(0, 0%, 12%, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid hsl(0, 0%, 20%, 0.5);
   }
 
-  .gradient-button-variant {
-    background: linear-gradient(135deg, hsl(238, 84%, 67%), hsl(186, 93%, 82%));
+  .luxury-heading {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    line-height: 1.1;
   }
 
-  .gradient-button-variant:hover {
+  .gold-text {
+    background: var(--gradient-gold);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .luxury-btn {
+    @apply inline-flex items-center justify-center px-10 py-4 text-sm tracking-[0.2em] uppercase transition-all duration-500;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    border: 1px solid hsl(var(--gold));
+    color: hsl(var(--gold));
+    background: transparent;
+  }
+
+  .luxury-btn:hover {
+    background: hsl(var(--gold));
+    color: hsl(var(--background));
     transform: translateY(-2px);
+    box-shadow: 0 10px 30px hsl(35, 60%, 55%, 0.2);
   }
+
+  .luxury-btn:active {
+    transform: translateY(0) scale(0.98);
+  }
+
+  .luxury-btn-filled {
+    @apply luxury-btn;
+    background: hsl(var(--gold));
+    color: hsl(0, 0%, 8%);
+  }
+
+  .luxury-btn-filled:hover {
+    background: hsl(var(--gold-light));
+    border-color: hsl(var(--gold-light));
+  }
+
+  .section-padding {
+    @apply py-24 md:py-32 lg:py-40;
+  }
+
+  .luxury-divider {
+    width: 60px;
+    height: 1px;
+    background: var(--gradient-gold);
+  }
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--background));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--gold) / 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--gold) / 0.5);
+}
+
+/* Selection */
+::selection {
+  background: hsl(var(--gold) / 0.2);
+  color: hsl(var(--foreground));
 }
