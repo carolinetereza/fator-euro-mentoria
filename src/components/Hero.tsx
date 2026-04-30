@@ -63,8 +63,8 @@ export const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className="flex absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      {/* Scroll indicator - desktop only */}
+      <div className="hidden md:flex absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce z-20">
         <div className="w-6 h-10 border-2 border-primary/30 rounded-full flex items-start justify-center p-2">
           <div className="w-1 h-3 bg-primary rounded-full animate-pulse" />
         </div>
