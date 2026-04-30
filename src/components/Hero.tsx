@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
+import { motion } from "framer-motion";
 import { ShinyButton } from "@/components/ui/shiny-button";
 import { ParticleBackground } from "@/components/ParticleBackground";
 import mentorImage from "@/assets/mentor-caroline-new.png";
