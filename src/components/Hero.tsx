@@ -58,10 +58,6 @@ export const Hero = () => {
               APLICAR AGORA
             </ShinyButton>
           </div>
-
-          <div ref={badgeRef} className="pt-4 opacity-0">
-            <p className="font-semibold text-lg">Apenas 4 vagas/mês</p>
-          </div>
         </div>
       </div>
 
