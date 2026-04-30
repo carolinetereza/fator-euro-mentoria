@@ -39,36 +39,6 @@ export const Hero = () => {
       <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/5 blur-[120px] rounded-full" />
       <div className="absolute bottom-0 left-0 w-1/2 h-1/2 bg-secondary/5 blur-[120px] rounded-full" />
 
-      {/* Lamp glow effect */}
-      <div className="absolute inset-0 z-0 flex items-center justify-center pointer-events-none">
-        <div className="relative w-full h-full flex items-center justify-center">
-          <motion.div
-            initial={{ opacity: 0.4, width: "10rem" }}
-            animate={{ opacity: 1, width: "28rem" }}
-            transition={{ delay: 0.3, duration: 1.4, ease: "easeInOut" }}
-            className="absolute top-1/2 -translate-y-1/2 h-[28rem] bg-accent/20 blur-[120px] rounded-full"
-          />
-          <motion.div
-            initial={{ opacity: 0, width: "12rem" }}
-            animate={{ opacity: 0.7, width: "20rem" }}
-            transition={{ delay: 0.4, duration: 1.4, ease: "easeInOut" }}
-            className="absolute top-1/2 -translate-y-1/2 h-[18rem] bg-accent/30 blur-[80px] rounded-full"
-          />
-          <motion.div
-            initial={{ width: "8rem" }}
-            animate={{ width: "18rem" }}
-            transition={{ delay: 0.5, duration: 1.4, ease: "easeInOut" }}
-            className="absolute top-[28%] h-[2px] bg-accent/60 blur-sm"
-          />
-          <motion.div
-            initial={{ width: "8rem" }}
-            animate={{ width: "18rem" }}
-            transition={{ delay: 0.5, duration: 1.4, ease: "easeInOut" }}
-            className="absolute top-[28%] h-px bg-accent"
-          />
-        </div>
-      </div>
-
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-5xl mx-auto text-center space-y-10">
