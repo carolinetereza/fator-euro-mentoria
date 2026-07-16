@@ -27,10 +27,10 @@ export const Pricing = () => {
         <div className="max-w-3xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-6">
             <h2 className="text-4xl md:text-6xl font-bold leading-tight">
-              <span className="bg-gradient-accent bg-clip-text text-transparent">Investimento</span>
+              <span className="bg-gradient-accent bg-clip-text text-transparent">Mentoria Privada</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Estruture sua operação para competir globalmente.
+              Aplicação estratégica para estruturar sua operação global.
             </p>
           </div>
 
