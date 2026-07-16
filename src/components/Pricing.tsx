@@ -57,18 +57,6 @@ export const Pricing = () => {
                   </p>
                 </div>
 
-                <div className="space-y-4 md:space-y-5 py-6 md:py-8">
-                  <div className="flex flex-wrap items-center gap-3 md:gap-4">
-                    <span className="text-xl md:text-2xl lg:text-3xl text-muted-foreground/60 line-through font-light">De R$ 9.999</span>
-                  </div>
-                  <div className="flex flex-wrap items-baseline gap-3 md:gap-4">
-                    <span className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-shift" style={{ backgroundSize: '200% 200%' }}>
-                      R$ 5.987
-                    </span>
-                    <span className="text-lg md:text-xl lg:text-2xl text-muted-foreground font-medium">à vista</span>
-                  </div>
-                  <p className="text-base md:text-lg lg:text-xl text-muted-foreground/80 font-medium">ou parcelado</p>
-                </div>
 
                 <div className="space-y-5 md:space-y-6">
                   <h4 className="text-xl md:text-2xl lg:text-3xl font-bold bg-gradient-to-r from-foreground to-primary bg-clip-text text-transparent">
