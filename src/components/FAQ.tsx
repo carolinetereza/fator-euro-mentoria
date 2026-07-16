@@ -8,14 +8,14 @@ import { useScrollReveal, useStaggerReveal } from "@/hooks/useScrollReveal";
 
 export const FAQ = () => {
   const faqs = [
-    { question: "Essa mentoria é pra mim?", answer: "Sim, se você quer resultado. Não, se busca mágica. A mentoria é para quem está disposto a trabalhar com método e ter o acompanhamento necessário para escalar." },
-    { question: "Como funciona?", answer: "Ao vivo comigo, com aplicação prévia. Você só entra se for aprovado. Após a aprovação, começamos com diagnóstico, planejamento, execução e otimização contínua até você vender." },
+    { question: "Essa mentoria é pra mim?", answer: "Sim, se você quer resultado com método. Não, se busca fórmula mágica. A mentoria é para quem está disposto a trabalhar com estrutura e ter acompanhamento estratégico para escalar." },
+    { question: "Como funciona o processo?", answer: "Tudo começa com a aplicação estratégica. Se aprovado, fazemos o diagnóstico da sua operação, estruturamos o plano de ação e executamos com supervisão contínua em sessões 1:1 ao vivo." },
     { question: "Preciso ter experiência?", answer: "Não. Precisa ter vontade de aplicar. O método foi criado para funcionar do zero, mas você precisa estar comprometido em seguir as orientações e executar." },
-    { question: "E se eu não vender?", answer: "Eu refaço tudo com você. Simples assim. Se em 15 dias você não tiver vendas, revisamos toda a estratégia e execução juntos até funcionar." },
-    { question: "A mentoria tem suporte?", answer: "Sim. Suporte VIP direto comigo pelo WhatsApp. Respostas rápidas, direção clara e ajustes certeiros sempre que você precisar." },
-    { question: "Quanto tempo dura?", answer: "O acompanhamento é personalizado, mas o foco é ter resultados em até 15 dias. O suporte continua até você estar vendendo consistentemente." },
+    { question: "E se eu não vender?", answer: "Eu refaço tudo com você. Se em 15 dias você não tiver vendas, revisamos toda a estratégia e execução juntos até funcionar." },
+    { question: "Como é o suporte?", answer: "Suporte VIP direto comigo pelo WhatsApp. Respostas rápidas, direção clara e ajustes certeiros sempre que você precisar." },
+    { question: "Quanto tempo dura o acompanhamento?", answer: "O acompanhamento é personalizado, mas o foco é ter resultados em até 15 dias. O suporte continua até você estar vendendo consistentemente." },
     { question: "Funciona para qualquer nicho?", answer: "Sim. O método V.E.N.D.® funciona para diversos nichos. No diagnóstico inicial, analisamos seu mercado e adaptamos a estratégia para seu produto específico." },
-    { question: "Preciso investir em anúncios?", answer: "Sim. Para acelerar resultados, trabalho com Google Ads e Meta Ads. O valor depende do seu nicho, mas te oriento sobre o investimento mínimo recomendado." }
+    { question: "Qual é o compromisso esperado?", answer: "Você precisa estar disponível para as sessões, aplicar as orientações e executar o que for definido. Quanto mais você se comprometer, mais rápido os resultados aparecem." }
   ];
 
   const headingRef = useScrollReveal<HTMLDivElement>({ y: 40 });
