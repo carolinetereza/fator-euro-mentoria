@@ -136,8 +136,11 @@ export const ApplicationForm = () => {
                       value={formData.countryCode}
                       onValueChange={(value) => setFormData(prev => ({ ...prev, countryCode: value }))}
                     >
-                      <SelectTrigger className="w-full sm:w-[140px] bg-background/50 border-border/50 focus:border-primary">
-                        <SelectValue />
+                      <SelectTrigger className="w-full sm:w-[180px] bg-background/50 border-border/50 focus:border-primary">
+                        <SelectValue placeholder="Selecione o país">
+                          {countries.find(c => c.code === formData.countryCode)?.flag}{" "}
+                          {countries.find(c => c.code === formData.countryCode)?.country.split(" ").slice(1).join(" ")}
+                        </SelectValue>
                       </SelectTrigger>
                       <SelectContent>
                         {countries.map((country) => (
