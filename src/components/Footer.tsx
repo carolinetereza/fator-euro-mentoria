@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ShinyButton } from "@/components/ui/shiny-button";
-import { Instagram, Linkedin, MessageCircle } from "lucide-react";
+import { Instagram, Linkedin, MessageCircle, Mail } from "lucide-react";
 import logoFatorEuro from "@/assets/logo-fator-euro-blue.png";
 
 export const Footer = () => {
@@ -99,6 +99,13 @@ export const Footer = () => {
               <div className="space-y-6 flex flex-col items-center text-center">
                 <h4 className="text-xl md:text-2xl font-bold">Entre em Contato</h4>
                 <a
+                  href="mailto:info@carolinemorette.com"
+                  className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2"
+                >
+                  <Mail className="w-5 h-5" />
+                  info@carolinemorette.com
+                </a>
+                <a
                   href="https://wa.me/5521969574147"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -119,12 +126,11 @@ export const Footer = () => {
           {/* Bottom */}
           <div className="text-center space-y-4">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} Mentoria FATOR EURO - Caroline Morette. 
+              © 2026 FATOR EURO | Caroline Morette. 
               Todos os direitos reservados.
             </p>
             <p className="text-xs text-muted-foreground">
-              Esta não é uma promessa de resultado. Os resultados podem variar de acordo
-              com dedicação e aplicação do método.
+              O método te dá a direção e as ferramentas, mas o ritmo e os resultados são frutos da sua dedicação ao aplicar cada passo.
             </p>
           </div>
         </div>

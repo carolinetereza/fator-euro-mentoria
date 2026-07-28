@@ -161,6 +161,16 @@ export const ApplicationForm = () => {
                       placeholder="(00) 00000-0000"
                     />
                   </div>
+                  <p className="text-sm text-muted-foreground flex items-center gap-2">
+                    <Mail className="w-4 h-4" />
+                    Prefere por email?{" "}
+                    <a
+                      href="mailto:info@carolinemorette.com"
+                      className="text-primary hover:underline"
+                    >
+                      info@carolinemorette.com
+                    </a>
+                  </p>
                 </div>
 
                 {/* E-commerce Experience */}
