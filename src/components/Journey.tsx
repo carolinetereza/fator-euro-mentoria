@@ -21,7 +21,7 @@ export const Journey = () => {
         <div className="max-w-6xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Etapas da <span className="bg-gradient-accent bg-clip-text text-transparent">Mentoria</span>
+              Etapas da <span className="bg-gradient-accent bg-clip-text text-transparent">Consultadoria</span>
             </h2>
             <p className="text-xl text-muted-foreground">Um processo estruturado do zero ao lucro</p>
           </div>

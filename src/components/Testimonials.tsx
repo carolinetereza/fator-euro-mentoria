@@ -22,7 +22,7 @@ export const Testimonials = () => {
     {
       icon: <img src={mentee1} alt="Anna Rossi" className="size-8 rounded-full object-cover" />,
       title: "Anna Rossi",
-      description: "Primeira venda em 10 dias",
+      description: "Operação destravada, resultados rodando na prática.",
       date: "E-commerce Owner",
       iconClassName: "text-primary",
       titleClassName: "text-primary",

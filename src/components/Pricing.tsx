@@ -27,7 +27,7 @@ export const Pricing = () => {
         <div className="max-w-3xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-6">
             <h2 className="text-4xl md:text-6xl font-bold leading-tight">
-              <span className="bg-gradient-accent bg-clip-text text-transparent">Mentoria Privada</span>
+              <span className="bg-gradient-accent bg-clip-text text-transparent">Consultadoria Privada</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Aplicação estratégica para estruturar sua operação global.
@@ -50,7 +50,7 @@ export const Pricing = () => {
               <div className="relative p-6 md:p-12 lg:p-16 space-y-8 md:space-y-10">
                 <div className="space-y-3 md:space-y-4 pt-12 md:pt-8">
                   <h3 className="text-2xl md:text-3xl lg:text-4xl font-bold bg-gradient-to-r from-primary via-accent to-primary bg-clip-text text-transparent animate-gradient-shift" style={{ backgroundSize: '200% 200%' }}>
-                    Mentoria Privada FATOR EURO™
+                    Consultadoria Privada FATOR EURO™
                   </h3>
                   <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed">
                     Estruture sua operação para competir globalmente.

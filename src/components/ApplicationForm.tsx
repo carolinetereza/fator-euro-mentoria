@@ -6,7 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { useState } from "react";
 import { toast } from "sonner";
-import { Send } from "lucide-react";
+import { Send, Mail } from "lucide-react";
 
 export const ApplicationForm = () => {
   const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ export const ApplicationForm = () => {
     e.preventDefault();
     
     // Format WhatsApp message
-    const message = `*Nova Aplicação - Mentoria FATOR EURO*\n\n` +
+    const message = `*Nova Aplicação - Consultadoria FATOR EURO*\n\n` +
       `*Nome:* ${formData.name}\n` +
       `*Email:* ${formData.email}\n` +
       `*Telefone:* ${formData.countryCode} ${formData.phone}\n` +
@@ -95,7 +95,7 @@ export const ApplicationForm = () => {
               className="relative bg-gradient-to-br from-card/90 via-card/95 to-background/90 backdrop-blur-2xl rounded-3xl border border-primary/20 shadow-[0_20px_80px_-20px_rgba(114,166,191,0.4)] p-8 md:p-12 space-y-8"
             >{/* Matched Pricing form colors */}
               <h3 className="text-2xl font-bold text-center">
-                Aplicação para a Mentoria FATOR EURO™
+                Aplicação para a Consultadoria FATOR EURO™
               </h3>
 
               <div className="space-y-6">
@@ -161,6 +161,16 @@ export const ApplicationForm = () => {
                       placeholder="(00) 00000-0000"
                     />
                   </div>
+                  <p className="text-sm text-muted-foreground flex items-center gap-2">
+                    <Mail className="w-4 h-4" />
+                    Prefere por email?{" "}
+                    <a
+                      href="mailto:info@carolinemorette.com"
+                      className="text-primary hover:underline"
+                    >
+                      info@carolinemorette.com
+                    </a>
+                  </p>
                 </div>
 
                 {/* E-commerce Experience */}
