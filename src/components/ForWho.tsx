@@ -26,7 +26,7 @@ export const ForWho = () => {
         <div className="max-w-5xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Essa Mentoria É <span className="bg-gradient-accent bg-clip-text text-transparent">Para Você Se:</span>
+              Essa Consultadoria É <span className="bg-gradient-accent bg-clip-text text-transparent">Para Você Se:</span>
             </h2>
           </div>
 

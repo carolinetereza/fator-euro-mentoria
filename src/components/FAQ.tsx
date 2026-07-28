@@ -8,7 +8,7 @@ import { useScrollReveal, useStaggerReveal } from "@/hooks/useScrollReveal";
 
 export const FAQ = () => {
   const faqs = [
-    { question: "Essa mentoria é pra mim?", answer: "Sim, se você quer resultado com método. Não, se busca fórmula mágica. A mentoria é para quem está disposto a trabalhar com estrutura e ter acompanhamento estratégico para escalar." },
+    { question: "Essa consultadoria é pra mim?", answer: "Sim, se você quer resultado com método. Não, se busca fórmula mágica. A consultadoria é para quem está disposto a trabalhar com estrutura e ter acompanhamento estratégico para escalar." },
     { question: "Como funciona o processo?", answer: "Tudo começa com a aplicação estratégica. Se aprovado, fazemos o diagnóstico da sua operação, estruturamos o plano de ação e executamos com supervisão contínua em sessões 1:1 ao vivo." },
     { question: "Preciso ter experiência?", answer: "Não. Precisa ter vontade de aplicar. O método foi criado para funcionar do zero, mas você precisa estar comprometido em seguir as orientações e executar." },
     { question: "E se eu não vender?", answer: "Eu refaço tudo com você. Se em 15 dias você não tiver vendas, revisamos toda a estratégia e execução juntos até funcionar." },
