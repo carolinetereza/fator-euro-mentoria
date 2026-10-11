@@ -4,10 +4,10 @@ import { useScrollReveal, useStaggerReveal } from "@/hooks/useScrollReveal";
 
 export const Journey = () => {
   const steps = [
-    { icon: Target, number: "01", title: "Aplicação e Diagnóstico", description: "Entendemos seu momento, sua loja e seus desafios." },
-    { icon: Route, number: "02", title: "Planejamento Estratégico", description: "Traçamos metas realistas e um plano sob medida." },
-    { icon: Wrench, number: "03", title: "Execução Guiada", description: "Mão na massa com meu acompanhamento pessoal." },
-    { icon: TrendingUp, number: "04", title: "Análise e Otimização", description: "Ajustes em tempo real para performance máxima." }
+    { icon: Target, number: "01", title: "Conversa e diagnóstico", description: "Entendemos o contexto do negócio, os mercados de interesse e os principais desafios." },
+    { icon: Route, number: "02", title: "Planejamento Estratégico", description: "Definimos prioridades e um plano adequado à operação." },
+    { icon: Wrench, number: "03", title: "Execução Guiada", description: "Acompanhamos as decisões e a implementação do plano." },
+    { icon: TrendingUp, number: "04", title: "Análise e Otimização", description: "Revisamos os indicadores para orientar os próximos passos." }
   ];
 
   const headingRef = useScrollReveal<HTMLDivElement>({ y: 40 });
@@ -16,14 +16,14 @@ export const Journey = () => {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,hsl(202,36%,20%,0.15),transparent_70%)]" />
-      
+
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
               Etapas da <span className="bg-gradient-accent bg-clip-text text-transparent">Consultadoria</span>
             </h2>
-            <p className="text-xl text-muted-foreground">Um processo estruturado do zero ao lucro</p>
+            <p className="text-xl text-muted-foreground">Do contexto do negócio às prioridades de execução</p>
           </div>
 
           <div ref={gridRef} className="relative">

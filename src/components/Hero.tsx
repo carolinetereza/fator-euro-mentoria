@@ -33,7 +33,7 @@ export const Hero = () => {
       <div className="absolute inset-0 opacity-10">
         <img src={mentorImage} alt="Caroline Morette" className="w-full h-full object-cover object-center" loading="lazy" />
       </div>
-      
+
       {/* Background effects */}
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,hsl(202,36%,20%,0.2),transparent_50%)]" />
       <div className="absolute top-0 right-0 w-1/2 h-1/2 bg-primary/5 blur-[120px] rounded-full" />
@@ -44,20 +44,20 @@ export const Hero = () => {
         <div className="max-w-5xl mx-auto text-center space-y-10">
           <div className="space-y-6">
             <h1 ref={h1Ref} className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight opacity-0">
-              Estratégia para Operações
+              Negócios com perspectiva
               <br />
               <span className="bg-gradient-accent bg-clip-text text-transparent">
-                Internacionais
+                global.
               </span>
             </h1>
             <p ref={pRef} className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto opacity-0">
-              Transforme sua operação em uma operação global. Fature em euro, dólar e libra.
+              Direção estratégica para empresas que querem estruturar sua presença em novos mercados. Do posicionamento à operação.
             </p>
           </div>
 
           <div ref={btnRef} className="opacity-0">
             <ShinyButton onClick={scrollToForm} className="group">
-              APLICAR AGORA
+              VAMOS CONVERSAR
             </ShinyButton>
           </div>
         </div>

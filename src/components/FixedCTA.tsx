@@ -15,7 +15,7 @@ export const FixedCTA = () => {
 
       const rect = formSection.getBoundingClientRect();
       const isInFormSection = rect.top < window.innerHeight && rect.bottom > 0;
-      
+
       // Show button after scrolling 100px but hide when in form section
       setIsVisible(window.scrollY > 100 && !isInFormSection);
     };
@@ -39,7 +39,7 @@ export const FixedCTA = () => {
         onClick={scrollToForm}
         className="group flex items-center justify-center gap-2"
       >
-        APLICAR AGORA
+        VAMOS CONVERSAR
         <ArrowDown className="w-4 h-4 group-hover:translate-y-1 transition-transform" />
       </ShinyButton>
     </div>

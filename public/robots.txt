@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://fator-euro-mentor-45589-76762-85652-896-47667.lovable.app/sitemap.xml
+Sitemap: https://carolinemorette.com/sitemap.xml

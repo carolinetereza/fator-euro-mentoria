@@ -56,12 +56,12 @@ export const Testimonials = () => {
   return (
     <section className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-radial from-primary/10 to-transparent" />
-      
+
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-16">
           <div ref={heading1Ref} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              <span className="bg-gradient-accent bg-clip-text text-transparent">Resultados</span> que falam por si
+              <span className="bg-gradient-accent bg-clip-text text-transparent">Resultados</span> de operações
             </h2>
           </div>
 
@@ -71,7 +71,7 @@ export const Testimonials = () => {
 
           <div ref={heading2Ref} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Eles ativaram o <span className="bg-gradient-accent bg-clip-text text-transparent">Fator Euro™</span>
+              Experiências com <span className="bg-gradient-accent bg-clip-text text-transparent">Fator Euro™</span>
             </h2>
           </div>
 

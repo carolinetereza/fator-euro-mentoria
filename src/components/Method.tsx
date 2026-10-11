@@ -4,17 +4,17 @@ import { useScrollReveal, useStaggerReveal } from "@/hooks/useScrollReveal";
 
 export const Method = () => {
   const steps = [
-    { letter: "V", title: "Visão Estratégica", description: "Diagnóstico profundo de mercado, produto e potencial de escala." },
-    { letter: "E", title: "Estruturação Executiva", description: "Arquitetura de loja, posicionamento e oferta para conversão global." },
-    { letter: "N", title: "Normalização de Performance", description: "Otimização de copy, tráfego e SEO para previsibilidade de receita." },
-    { letter: "D", title: "Domínio de Mercado", description: "Escala estruturada com controle de margem e crescimento sustentável." }
+    { letter: "01", title: "Mercado e direção", description: "Análise de mercado, produto e contexto competitivo para definir prioridades de expansão." },
+    { letter: "02", title: "Posicionamento e oferta", description: "Alinhamento entre marca, oferta e experiência de compra para o mercado que a operação pretende atender." },
+    { letter: "03", title: "Estrutura e execução", description: "Organização da operação digital e acompanhamento das decisões de loja, comunicação e aquisição." },
+    { letter: "04", title: "Performance e evolução", description: "Leitura de indicadores e revisão de prioridades, considerando margem, eficiência e capacidade de crescimento." }
   ];
 
   const highlights = [
-    { text: "Estruturar um negócio para crescer com previsibilidade.", icon: TrendingUp },
+    { text: "Definir prioridades a partir do contexto do negócio.", icon: TrendingUp },
     { text: "Direção estratégica e execução supervisionada.", icon: Target },
-    { text: "Sem fórmulas mágicas. Sem atalhos ilusórios.", icon: Zap },
-    { text: "Ter alguém que te guie, não que te iluda.", icon: Users }
+    { text: "Alinhar posicionamento, oferta e experiência de compra.", icon: Zap },
+    { text: "Revisar decisões com atenção à margem e à eficiência.", icon: Users }
   ];
 
   const headingRef = useScrollReveal<HTMLDivElement>({ y: 40 });
@@ -25,16 +25,16 @@ export const Method = () => {
   return (
     <section id="method" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-radial from-primary/5 to-transparent" />
-      
+
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-16">
           {/* Heading */}
           <div ref={headingRef} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              O Método <span className="bg-gradient-accent bg-clip-text text-transparent">V.E.N.D.®</span>
+              Estratégia para <span className="bg-gradient-accent bg-clip-text text-transparent">novos mercados</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-              Criado na prática. Refinado em operações internacionais.
+              A expansão começa com decisões consistentes.
             </p>
           </div>
 
@@ -62,12 +62,12 @@ export const Method = () => {
           <div ref={promiseRef} className="max-w-4xl mx-auto space-y-8">
             <div className="space-y-6">
               <h3 className="text-2xl md:text-3xl font-bold text-center">
-                Esse acompanhamento não nasceu de <span className="bg-gradient-accent bg-clip-text text-transparent">teoria. Nasceu de operação real.</span>
+                Visão de mercado, <span className="bg-gradient-accent bg-clip-text text-transparent">critério de execução.</span>
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed text-center">
-                Você não precisa de mais conteúdo. Precisa de direção estratégica e execução supervisionada.
+                Cada operação tem um contexto. A estratégia conecta a oportunidade de mercado à capacidade real de execução do negócio.
               </p>
-              
+
               <div ref={highlightsRef} className="grid gap-4">
                 {highlights.map((highlight, index) => {
                   const Icon = highlight.icon;

@@ -27,7 +27,7 @@ export const Authority = () => {
               </div>
             </div>
             <p ref={statementRef} className="text-2xl font-semibold text-center">
-              Não sou guru. Não sou influenciadora. <span className="bg-gradient-accent bg-clip-text text-transparent">Sou estrategista e operadora.</span>
+              Visão estratégica. <span className="bg-gradient-accent bg-clip-text text-transparent">Experiência em operação.</span>
             </p>
           </div>
 
@@ -45,15 +45,15 @@ export const Authority = () => {
           <div ref={contentRef} className="max-w-4xl mx-auto space-y-8">
             <div className="space-y-6 lg:hidden">
               <h3 className="text-3xl md:text-4xl font-bold leading-tight text-center">
-                Não sou guru.<br />
-                Não sou influenciadora.<br />
-                <span className="bg-gradient-accent bg-clip-text text-transparent">Sou estrategista e operadora.</span>
+                Visão estratégica.<br />
+
+                <span className="bg-gradient-accent bg-clip-text text-transparent">Experiência em operação.</span>
               </h3>
             </div>
-              
+
             <div className="space-y-5 text-lg text-muted-foreground leading-relaxed">
-              <p>Atuo diretamente em e-commerces com faturamento internacional, estruturando operações que vendem diariamente em múltiplas moedas.</p>
-              <p>Formação em Business Management na Irlanda e Estratégia Corporativa em Londres. Experiência prática em expansão, escala e consolidação de operações digitais.</p>
+              <p>Atuo na estruturação e no desenvolvimento de operações digitais internacionais, conectando decisões de mercado, posicionamento e execução.</p>
+              <p>Minha experiência vem da atuação direta em e-commerces com faturamento internacional e operações em múltiplas moedas. Formação em Business Management na Irlanda e Estratégia Corporativa em Londres.</p>
             </div>
           </div>
         </div>

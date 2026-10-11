@@ -4,10 +4,10 @@ import { useScrollReveal, useStaggerReveal } from "@/hooks/useScrollReveal";
 
 export const Benefits = () => {
   const benefits = [
-    { icon: Video, title: "Acompanhamento privado 1:1 ao vivo", description: "Acompanhamento estratégico direto comigo." },
-    { icon: Target, title: "Supervisão completa da operação", description: "Copy, oferta, tráfego e SEO revisados estrategicamente." },
-    { icon: Store, title: "Estrutura validada para escala internacional", description: "Modelo aplicado em operações reais." },
-    { icon: Shield, title: "Compromisso estratégico", description: "Enquanto houver execução disciplinada, haverá ajustes até estabilizar a operação." }
+    { icon: Video, title: "Acompanhamento privado 1:1 ao vivo", description: "Sessões individuais para revisar decisões e definir prioridades." },
+    { icon: Target, title: "Revisão da operação", description: "Revisão de loja, oferta e comunicação; orientação sobre tráfego e SEO." },
+    { icon: Store, title: "Estrutura para mercados internacionais", description: "Alinhamento da estrutura digital ao mercado de interesse." },
+    { icon: Shield, title: "Prioridades de execução", description: "Acompanhamento das prioridades e dos indicadores da operação." }
   ];
 
   const headingRef = useScrollReveal<HTMLDivElement>({ y: 40 });
@@ -20,7 +20,7 @@ export const Benefits = () => {
         <div className="max-w-6xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              O Que Está <span className="bg-gradient-accent bg-clip-text text-transparent">Incluso</span>
+              O acompanhamento <span className="bg-gradient-accent bg-clip-text text-transparent">individual</span>
             </h2>
           </div>
 
@@ -48,10 +48,10 @@ export const Benefits = () => {
             <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(99,102,241,0.1),transparent_70%)]" />
             <div className="relative z-10">
               <h3 className="text-3xl md:text-4xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-                Exclusividade Absoluta
+                Consultoria Fator Euro
               </h3>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Apenas 4 mentorados por mês. Acesso mediante aplicação estratégica.
+                Estratégia internacional aplicada ao e-commerce, com diagnóstico, direção e supervisão da execução.
               </p>
             </div>
           </div>

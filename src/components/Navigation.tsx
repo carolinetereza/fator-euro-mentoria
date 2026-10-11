@@ -20,9 +20,9 @@ export const Navigation = () => {
   };
 
   const menuItems = [
-    { label: "Quem Sou", id: "authority" },
-    { label: "Método", id: "method" },
-    { label: "Aplicar", id: "application-form" },
+    { label: "Sobre", id: "authority" },
+    { label: "Atuação", id: "method" },
+    { label: "Contato", id: "application-form" },
   ];
 
   return (

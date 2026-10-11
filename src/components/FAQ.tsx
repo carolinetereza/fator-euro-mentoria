@@ -8,15 +8,39 @@ import { useScrollReveal, useStaggerReveal } from "@/hooks/useScrollReveal";
 
 export const FAQ = () => {
   const faqs = [
-    { question: "Essa consultadoria é pra mim?", answer: "Sim, se você quer resultado com método. Não, se busca fórmula mágica. A consultadoria é para quem está disposto a trabalhar com estrutura e ter acompanhamento estratégico para escalar." },
-    { question: "Como funciona o processo?", answer: "Tudo começa com a aplicação estratégica. Se aprovado, fazemos o diagnóstico da sua operação, estruturamos o plano de ação e executamos com supervisão contínua em sessões 1:1 ao vivo." },
-    { question: "Preciso ter experiência?", answer: "Não. Precisa ter vontade de aplicar. O método foi criado para funcionar do zero, mas você precisa estar comprometido em seguir as orientações e executar." },
-    { question: "E se eu não vender?", answer: "Eu refaço tudo com você. Se em 15 dias você não tiver vendas, revisamos toda a estratégia e execução juntos até funcionar." },
-    { question: "Como é o suporte?", answer: "Suporte VIP direto comigo pelo WhatsApp. Respostas rápidas, direção clara e ajustes certeiros sempre que você precisar." },
-    { question: "Quanto tempo dura o acompanhamento?", answer: "O acompanhamento é personalizado, mas o foco é ter resultados em até 15 dias. O suporte continua até você estar vendendo consistentemente." },
-    { question: "Funciona para qualquer nicho?", answer: "Sim. O método V.E.N.D.® funciona para diversos nichos. No diagnóstico inicial, analisamos seu mercado e adaptamos a estratégia para seu produto específico." },
-    { question: "Qual é o compromisso esperado?", answer: "Você precisa estar disponível para as sessões, aplicar as orientações e executar o que for definido. Quanto mais você se comprometer, mais rápido os resultados aparecem." }
-  ];
+  {
+    "question": "Para quem é o Fator Euro?",
+    "answer": "Para quem está planejando uma operação de e-commerce internacional ou quer revisar a estrutura de uma operação existente. A conversa inicial ajuda a avaliar o momento do negócio e a adequação do acompanhamento."
+  },
+  {
+    "question": "Como funciona o acompanhamento?",
+    "answer": "O trabalho parte de um diagnóstico e segue com planejamento e execução supervisionada em sessões individuais. O escopo e as condições são alinhados antes da contratação."
+  },
+  {
+    "question": "Preciso ter uma operação em andamento?",
+    "answer": "A consultoria atende diferentes momentos do negócio, desde o planejamento até a revisão de uma operação existente. O contexto e os objetivos são avaliados na conversa inicial."
+  },
+  {
+    "question": "Como são avaliadas as prioridades?",
+    "answer": "As decisões consideram o mercado de interesse, a oferta, a estrutura da loja e os indicadores disponíveis. A análise orienta o plano de ação e suas revisões."
+  },
+  {
+    "question": "O que é acompanhado?",
+    "answer": "O acompanhamento inclui sessões individuais, revisão de loja, oferta e comunicação, orientação sobre tráfego e SEO e acompanhamento das prioridades de execução."
+  },
+  {
+    "question": "Como são definidos o escopo e a duração?",
+    "answer": "O escopo, a duração e as condições do acompanhamento são alinhados antes da contratação, considerando o momento e as necessidades da operação."
+  },
+  {
+    "question": "Como é escolhido o mercado de interesse?",
+    "answer": "A análise parte do produto, do contexto competitivo e da capacidade de execução do negócio para definir prioridades de expansão."
+  },
+  {
+    "question": "O que é necessário para começar?",
+    "answer": "Compartilhar o contexto do negócio, os mercados de interesse e os principais desafios. Essas informações orientam a conversa sobre prioridades e próximos passos."
+  }
+];
 
   const headingRef = useScrollReveal<HTMLDivElement>({ y: 40 });
   const accordionRef = useStaggerReveal<HTMLDivElement>("[data-faq]", { y: 30, stagger: 0.08 });
@@ -27,9 +51,9 @@ export const FAQ = () => {
         <div className="max-w-4xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Perguntas <span className="bg-gradient-accent bg-clip-text text-transparent">Sem Rodeios</span>
+              Informações <span className="bg-gradient-accent bg-clip-text text-transparent">sobre a consultoria</span>
             </h2>
-            <p className="text-xl text-muted-foreground">Respostas diretas para dúvidas diretas</p>
+            <p className="text-xl text-muted-foreground">O contexto do negócio orienta o acompanhamento</p>
           </div>
 
           <div ref={accordionRef}>

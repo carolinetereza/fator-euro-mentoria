@@ -36,18 +36,18 @@ export const ApplicationForm = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     // Format WhatsApp message
-    const message = `*Nova Aplicação - Consultadoria FATOR EURO*\n\n` +
+    const message = `*Contato - Caroline Morette*\n\n` +
       `*Nome:* ${formData.name}\n` +
       `*Email:* ${formData.email}\n` +
       `*Telefone:* ${formData.countryCode} ${formData.phone}\n` +
       `*Experiência com E-commerce:* ${formData.ecommerceExperience}\n` +
       `*Capacidade de Investimento:* ${formData.investmentCapacity}`;
-    
+
     const whatsappUrl = `https://wa.me/5521969574147?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
-    
+
     toast.success("Redirecionando para WhatsApp...");
   };
 
@@ -62,19 +62,19 @@ export const ApplicationForm = () => {
     <section id="application-form" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       {/* Background effects */}
       <div className="absolute top-0 left-0 w-full h-full bg-gradient-radial from-primary/10 to-transparent" />
-      
+
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto space-y-12 animate-fade-in">
           {/* Heading */}
           <div className="text-center space-y-4">
             <h2 className="text-4xl md:text-5xl font-bold">
-              Ative o{" "}
+              Vamos conversar sobre o{" "}
               <span className="bg-gradient-accent bg-clip-text text-transparent">
                 FATOR EURO™
               </span>
             </h2>
             <p className="text-xl text-muted-foreground">
-              Apenas 4 vagas por mês. Se essa página está no ar, ainda é possível aplicar.
+              Conte em que momento está o seu negócio. A conversa começa pelo seu contexto.
             </p>
           </div>
 
@@ -89,13 +89,13 @@ export const ApplicationForm = () => {
               borderWidth={2}
               className="rounded-3xl"
             />
-            
+
             <form
               onSubmit={handleSubmit}
               className="relative bg-gradient-to-br from-card/90 via-card/95 to-background/90 backdrop-blur-2xl rounded-3xl border border-primary/20 shadow-[0_20px_80px_-20px_rgba(114,166,191,0.4)] p-8 md:p-12 space-y-8"
             >{/* Matched Pricing form colors */}
               <h3 className="text-2xl font-bold text-center">
-                Aplicação para a Consultadoria FATOR EURO™
+                Conversa inicial — Consultoria Fator Euro
               </h3>
 
               <div className="space-y-6">
@@ -132,7 +132,7 @@ export const ApplicationForm = () => {
                 <div className="space-y-2">
                   <Label htmlFor="phone">WhatsApp *</Label>
                   <div className="flex flex-col sm:flex-row gap-2">
-                    <Select 
+                    <Select
                       value={formData.countryCode}
                       onValueChange={(value) => setFormData(prev => ({ ...prev, countryCode: value }))}
                     >
@@ -176,7 +176,7 @@ export const ApplicationForm = () => {
                 {/* E-commerce Experience */}
                 <div className="space-y-2">
                   <Label htmlFor="ecommerceExperience">Experiência com E-commerce *</Label>
-                  <Select 
+                  <Select
                     required
                     value={formData.ecommerceExperience}
                     onValueChange={(value) => setFormData(prev => ({ ...prev, ecommerceExperience: value }))}
@@ -186,9 +186,9 @@ export const ApplicationForm = () => {
                     </SelectTrigger>
                     <SelectContent>
                       <SelectItem value="iniciante">Iniciante – Nunca tive e-commerce</SelectItem>
-                      <SelectItem value="alguma">Alguma – Já tentei mas não deu certo</SelectItem>
-                      <SelectItem value="intermediario">Intermediário – Tenho loja mas não vendo</SelectItem>
-                      <SelectItem value="avancado">Avançado – Vendo pouco, quero escalar</SelectItem>
+                      <SelectItem value="alguma">Inicial – Já fiz testes de operação</SelectItem>
+                      <SelectItem value="intermediario">Intermediário – Tenho uma loja em operação</SelectItem>
+                      <SelectItem value="avancado">Avançado – Quero desenvolver minha operação</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
@@ -196,7 +196,7 @@ export const ApplicationForm = () => {
                 {/* Investment Capacity */}
                 <div className="space-y-2">
                   <Label htmlFor="investmentCapacity">Capacidade de Investimento *</Label>
-                  <Select 
+                  <Select
                     required
                     value={formData.investmentCapacity}
                     onValueChange={(value) => setFormData(prev => ({ ...prev, investmentCapacity: value }))}
@@ -218,23 +218,23 @@ export const ApplicationForm = () => {
                 type="submit"
                 className="w-full group flex items-center justify-center gap-2"
               >
-                ENVIAR APLICAÇÃO
+                CONTINUAR NO WHATSAPP
                 <Send className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </ShinyButton>
 
               <p className="text-sm text-center text-muted-foreground">
-                Ao enviar, você será redirecionado(a) para o WhatsApp para finalizar sua aplicação.
+                O WhatsApp abrirá com uma mensagem preenchida para você revisar e enviar.
                 <br />
-                Sua aplicação será analisada e você receberá retorno em até 24h.
+                Seus dados serão compartilhados com Caroline ao enviar a mensagem.
               </p>
             </form>
           </div>
 
           {/* VIP List CTA */}
           <div className="text-center space-y-4">
-            <p className="text-xl font-semibold">Vagas Esgotadas?</p>
+            <p className="text-xl font-semibold">Quer conversar sobre estratégia internacional?</p>
             <p className="text-muted-foreground">
-              Entre para a Lista de Espera VIP e seja avisado(a) antes da próxima turma.
+              Entre em contato pelo email info@carolinemorette.com e compartilhe o contexto do seu negócio.
             </p>
           </div>
         </div>

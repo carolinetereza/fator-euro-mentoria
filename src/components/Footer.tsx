@@ -26,22 +26,22 @@ export const Footer = () => {
     <footer className="relative py-16 px-4 sm:px-6 lg:px-8 border-t border-border/50">
       {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-t from-primary/5 to-transparent" />
-      
+
       <div className="container mx-auto relative z-10">
         <div className="max-w-6xl mx-auto space-y-12">
           {/* Main content */}
           <div className="flex flex-col items-center space-y-12">
             {/* Top - Branding (mobile, tablet, desktop) */}
             <div className="space-y-6 flex flex-col items-center text-center w-full">
-              <img 
-                src={logoFatorEuro} 
-                alt="Logo Fator Euro" 
+              <img
+                src={logoFatorEuro}
+                alt="Logo Fator Euro"
                 className="w-40 md:w-52 h-auto"
               />
               <p className="text-base md:text-lg text-muted-foreground leading-relaxed">
-                Resultado é o Novo Luxo.
+                Visão de mercado.
                 <br />
-                Do zero ao lucro real.
+                Critério de execução.
               </p>
               <div className="flex gap-4 justify-center">
                 {socialLinks.map((link, index) => {
@@ -78,19 +78,19 @@ export const Footer = () => {
                     onClick={() => document.getElementById('authority')?.scrollIntoView({ behavior: 'smooth' })}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    Quem Sou
+                    Sobre
                   </button>
                   <button
                     onClick={() => document.getElementById('method')?.scrollIntoView({ behavior: 'smooth' })}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    Método
+                    Atuação
                   </button>
                   <button
                     onClick={() => document.getElementById('application-form')?.scrollIntoView({ behavior: 'smooth' })}
                     className="text-muted-foreground hover:text-foreground transition-colors"
                   >
-                    Aplicar
+                    Contato
                   </button>
                 </nav>
               </div>
@@ -126,11 +126,11 @@ export const Footer = () => {
           {/* Bottom */}
           <div className="text-center space-y-4">
             <p className="text-sm text-muted-foreground">
-              © 2026 FATOR EURO | Caroline Morette. 
+              © 2026 FATOR EURO | Caroline Morette.
               Todos os direitos reservados.
             </p>
             <p className="text-xs text-muted-foreground">
-              O método te dá a direção e as ferramentas, mas o ritmo e os resultados são frutos da sua dedicação ao aplicar cada passo.
+              Estratégia para operações digitais internacionais. Fator Euro: consultoria privada para e-commerce.
             </p>
           </div>
         </div>

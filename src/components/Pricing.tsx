@@ -10,9 +10,9 @@ export const Pricing = () => {
 
   const includes = [
     "Sessões privadas 1:1 ao vivo",
-    "Supervisão completa da operação",
-    "Estrutura validada para escala internacional",
-    "Suporte prioritário e acompanhamento contínuo"
+    "Revisão de loja, oferta e comunicação",
+    "Orientação sobre tráfego e SEO",
+    "Acompanhamento das prioridades de execução"
   ];
 
   const headingRef = useScrollReveal<HTMLDivElement>({ y: 40 });
@@ -22,7 +22,7 @@ export const Pricing = () => {
     <section id="pricing" className="py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       <div className="absolute top-1/4 left-1/4 w-[800px] h-[800px] bg-primary/5 blur-[150px] rounded-full animate-pulse" />
       <div className="absolute bottom-1/4 right-1/4 w-[600px] h-[600px] bg-primary/5 blur-[150px] rounded-full animate-pulse" style={{ animationDelay: '1s' }} />
-      
+
       <div className="container mx-auto relative z-10">
         <div className="max-w-3xl mx-auto space-y-16">
           <div ref={headingRef} className="text-center space-y-6">
@@ -30,20 +30,20 @@ export const Pricing = () => {
               <span className="bg-gradient-accent bg-clip-text text-transparent">Consultadoria Privada</span>
             </h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Aplicação estratégica para estruturar sua operação global.
+              Estratégia internacional aplicada ao e-commerce.
             </p>
           </div>
 
           <div ref={cardRef} className="relative group">
             <GlowingEffect spread={50} glow={true} disabled={false} proximity={120} inactiveZone={0.01} borderWidth={2} className="rounded-2xl md:rounded-[2rem]" />
-            
+
             <div className="relative bg-gradient-to-br from-card/90 via-card/95 to-background/90 backdrop-blur-2xl rounded-2xl md:rounded-[2rem] border border-primary/20 overflow-hidden shadow-[0_20px_80px_-20px_rgba(114,166,191,0.4)]">
               <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5 opacity-50" />
-              
+
               <div className="absolute top-0 right-0 bg-gradient-to-br from-primary to-secondary px-4 py-2 md:px-8 md:py-3 rounded-bl-xl md:rounded-bl-[2rem] shadow-[0_8px_32px_rgba(114,166,191,0.3)]">
                 <p className="font-bold text-xs md:text-sm text-primary-foreground flex items-center gap-1 md:gap-2">
                   <Zap className="w-3 h-3 md:w-4 md:h-4" />
-                  VAGAS LIMITADAS
+                  ACOMPANHAMENTO INDIVIDUAL
                 </p>
               </div>
 
@@ -53,7 +53,7 @@ export const Pricing = () => {
                     Consultadoria Privada FATOR EURO™
                   </h3>
                   <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground leading-relaxed">
-                    Estruture sua operação para competir globalmente.
+                    Um acompanhamento individual para estruturar ou desenvolver sua operação em mercados internacionais.
                   </p>
                 </div>
 
@@ -79,16 +79,16 @@ export const Pricing = () => {
 
                 <div className="relative">
                   <ShinyButton className="relative w-full text-sm md:text-base lg:text-xl font-bold py-6 md:py-7 lg:py-9 rounded-xl md:rounded-2xl shadow-[0_0_40px_rgba(99,102,241,0.3)] hover:shadow-[0_8px_60px_rgba(99,102,241,0.6)] transition-all duration-500" onClick={scrollToForm}>
-                    GARANTIR MINHA APLICAÇÃO
+                    CONVERSAR SOBRE A CONSULTORIA
                   </ShinyButton>
                 </div>
 
                 <div className="text-center space-y-2 pt-4">
                   <p className="text-sm md:text-base lg:text-lg text-muted-foreground">
-                    Apenas 4 vagas por mês. Acesso mediante aplicação estratégica.
+                    O escopo e as condições são alinhados antes da contratação.
                   </p>
                   <p className="text-base md:text-lg lg:text-xl font-bold bg-gradient-accent bg-clip-text text-transparent">
-                    Não é para curiosos. É para quem leva negócio a sério.
+                    A conversa começa pelo contexto do seu negócio.
                   </p>
                 </div>
               </div>
